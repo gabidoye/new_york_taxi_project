@@ -1,0 +1,713 @@
+[2022-02-03 00:00:32,833] {processor.py:163} INFO - Started process (PID=15139) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 00:00:32,843] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 00:00:32,854] {logging_mixin.py:109} INFO - [2022-02-03 00:00:32,853] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 00:00:39,374] {logging_mixin.py:109} INFO - [2022-02-03 00:00:39,373] {process_utils.py:237} INFO - Waiting up to 5 seconds for processes to exit...
+[2022-02-03 22:48:18,069] {processor.py:163} INFO - Started process (PID=179) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:48:18,096] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:48:18,101] {logging_mixin.py:109} INFO - [2022-02-03 22:48:18,101] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:48:47,203] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:48:50,503] {logging_mixin.py:109} INFO - [2022-02-03 22:48:50,502] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:48:50,735] {logging_mixin.py:109} INFO - [2022-02-03 22:48:50,734] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:48:50,830] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 32.783 seconds
+[2022-02-03 22:49:21,953] {processor.py:163} INFO - Started process (PID=266) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:49:21,963] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:49:21,970] {logging_mixin.py:109} INFO - [2022-02-03 22:49:21,969] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:49:29,361] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:49:29,405] {logging_mixin.py:109} INFO - [2022-02-03 22:49:29,404] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:49:29,486] {logging_mixin.py:109} INFO - [2022-02-03 22:49:29,486] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:49:29,513] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 7.589 seconds
+[2022-02-03 22:50:00,061] {processor.py:163} INFO - Started process (PID=329) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:50:00,068] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:50:00,071] {logging_mixin.py:109} INFO - [2022-02-03 22:50:00,071] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:50:04,560] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:50:04,621] {logging_mixin.py:109} INFO - [2022-02-03 22:50:04,619] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:50:04,753] {logging_mixin.py:109} INFO - [2022-02-03 22:50:04,752] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:50:04,812] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.758 seconds
+[2022-02-03 22:50:35,159] {processor.py:163} INFO - Started process (PID=390) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:50:35,173] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:50:35,177] {logging_mixin.py:109} INFO - [2022-02-03 22:50:35,176] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:50:39,169] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:50:39,219] {logging_mixin.py:109} INFO - [2022-02-03 22:50:39,218] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:50:39,350] {logging_mixin.py:109} INFO - [2022-02-03 22:50:39,349] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:50:39,390] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.239 seconds
+[2022-02-03 22:51:09,825] {processor.py:163} INFO - Started process (PID=444) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:51:09,830] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:51:09,833] {logging_mixin.py:109} INFO - [2022-02-03 22:51:09,833] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:51:12,640] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:51:12,687] {logging_mixin.py:109} INFO - [2022-02-03 22:51:12,686] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:51:12,756] {logging_mixin.py:109} INFO - [2022-02-03 22:51:12,755] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:51:12,779] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.961 seconds
+[2022-02-03 22:51:42,883] {processor.py:163} INFO - Started process (PID=507) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:51:42,888] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:51:42,892] {logging_mixin.py:109} INFO - [2022-02-03 22:51:42,891] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:51:47,327] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:51:47,370] {logging_mixin.py:109} INFO - [2022-02-03 22:51:47,369] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:51:47,438] {logging_mixin.py:109} INFO - [2022-02-03 22:51:47,438] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:51:47,465] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.590 seconds
+[2022-02-03 22:52:18,004] {processor.py:163} INFO - Started process (PID=571) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:52:18,009] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:52:18,013] {logging_mixin.py:109} INFO - [2022-02-03 22:52:18,013] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:52:21,992] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:52:22,036] {logging_mixin.py:109} INFO - [2022-02-03 22:52:22,035] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:52:22,123] {logging_mixin.py:109} INFO - [2022-02-03 22:52:22,123] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:52:22,182] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.186 seconds
+[2022-02-03 22:52:52,673] {processor.py:163} INFO - Started process (PID=618) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:52:52,678] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:52:52,682] {logging_mixin.py:109} INFO - [2022-02-03 22:52:52,681] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:52:55,963] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:52:56,058] {logging_mixin.py:109} INFO - [2022-02-03 22:52:56,056] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:52:56,195] {logging_mixin.py:109} INFO - [2022-02-03 22:52:56,187] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:52:56,288] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.622 seconds
+[2022-02-03 22:53:26,939] {processor.py:163} INFO - Started process (PID=682) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:53:26,946] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:53:26,951] {logging_mixin.py:109} INFO - [2022-02-03 22:53:26,951] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:53:30,008] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:53:30,043] {logging_mixin.py:109} INFO - [2022-02-03 22:53:30,042] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:53:30,095] {logging_mixin.py:109} INFO - [2022-02-03 22:53:30,094] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:53:30,121] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.189 seconds
+[2022-02-03 22:54:00,511] {processor.py:163} INFO - Started process (PID=748) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:54:00,516] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:54:00,518] {logging_mixin.py:109} INFO - [2022-02-03 22:54:00,518] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:54:04,997] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:54:05,083] {logging_mixin.py:109} INFO - [2022-02-03 22:54:05,082] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:54:05,198] {logging_mixin.py:109} INFO - [2022-02-03 22:54:05,198] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:54:05,230] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.727 seconds
+[2022-02-03 22:54:35,590] {processor.py:163} INFO - Started process (PID=817) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:54:35,596] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:54:35,599] {logging_mixin.py:109} INFO - [2022-02-03 22:54:35,599] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:54:39,591] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:54:39,643] {logging_mixin.py:109} INFO - [2022-02-03 22:54:39,642] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:54:39,767] {logging_mixin.py:109} INFO - [2022-02-03 22:54:39,767] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:54:39,801] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.219 seconds
+[2022-02-03 22:55:10,075] {processor.py:163} INFO - Started process (PID=864) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:55:10,079] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:55:10,082] {logging_mixin.py:109} INFO - [2022-02-03 22:55:10,081] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:55:12,923] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:55:12,965] {logging_mixin.py:109} INFO - [2022-02-03 22:55:12,963] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:55:13,023] {logging_mixin.py:109} INFO - [2022-02-03 22:55:13,023] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:55:13,046] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.977 seconds
+[2022-02-03 22:55:43,831] {processor.py:163} INFO - Started process (PID=930) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:55:43,843] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:55:43,855] {logging_mixin.py:109} INFO - [2022-02-03 22:55:43,854] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:55:47,742] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:55:47,782] {logging_mixin.py:109} INFO - [2022-02-03 22:55:47,781] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:55:47,851] {logging_mixin.py:109} INFO - [2022-02-03 22:55:47,850] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:55:47,878] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.074 seconds
+[2022-02-03 22:56:18,312] {processor.py:163} INFO - Started process (PID=993) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:56:18,318] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:56:18,321] {logging_mixin.py:109} INFO - [2022-02-03 22:56:18,321] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:56:22,499] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:56:22,596] {logging_mixin.py:109} INFO - [2022-02-03 22:56:22,595] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:56:22,679] {logging_mixin.py:109} INFO - [2022-02-03 22:56:22,678] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:56:22,712] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.407 seconds
+[2022-02-03 22:56:53,196] {processor.py:163} INFO - Started process (PID=1039) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:56:53,201] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:56:53,204] {logging_mixin.py:109} INFO - [2022-02-03 22:56:53,204] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:56:56,635] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:56:56,684] {logging_mixin.py:109} INFO - [2022-02-03 22:56:56,683] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:56:56,766] {logging_mixin.py:109} INFO - [2022-02-03 22:56:56,765] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:56:56,901] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.709 seconds
+[2022-02-03 22:57:27,244] {processor.py:163} INFO - Started process (PID=1101) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:57:27,249] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:57:27,252] {logging_mixin.py:109} INFO - [2022-02-03 22:57:27,251] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:57:30,322] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:57:30,373] {logging_mixin.py:109} INFO - [2022-02-03 22:57:30,372] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:57:30,432] {logging_mixin.py:109} INFO - [2022-02-03 22:57:30,431] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:57:30,454] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.217 seconds
+[2022-02-03 22:58:00,895] {processor.py:163} INFO - Started process (PID=1164) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:58:00,899] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:58:00,912] {logging_mixin.py:109} INFO - [2022-02-03 22:58:00,912] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:58:05,299] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:58:05,344] {logging_mixin.py:109} INFO - [2022-02-03 22:58:05,342] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:58:05,417] {logging_mixin.py:109} INFO - [2022-02-03 22:58:05,416] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:58:05,447] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.559 seconds
+[2022-02-03 22:58:35,758] {processor.py:163} INFO - Started process (PID=1228) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:58:35,764] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:58:35,768] {logging_mixin.py:109} INFO - [2022-02-03 22:58:35,768] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:58:40,351] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:58:40,395] {logging_mixin.py:109} INFO - [2022-02-03 22:58:40,394] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:58:40,474] {logging_mixin.py:109} INFO - [2022-02-03 22:58:40,473] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:58:40,507] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.758 seconds
+[2022-02-03 22:59:11,063] {processor.py:163} INFO - Started process (PID=1274) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:59:11,068] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:59:11,070] {logging_mixin.py:109} INFO - [2022-02-03 22:59:11,070] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:59:13,971] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:59:14,003] {logging_mixin.py:109} INFO - [2022-02-03 22:59:14,002] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:59:14,062] {logging_mixin.py:109} INFO - [2022-02-03 22:59:14,061] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:59:14,085] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.028 seconds
+[2022-02-03 22:59:44,691] {processor.py:163} INFO - Started process (PID=1337) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:59:44,696] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 22:59:44,699] {logging_mixin.py:109} INFO - [2022-02-03 22:59:44,699] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:59:48,378] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 22:59:48,418] {logging_mixin.py:109} INFO - [2022-02-03 22:59:48,417] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:59:48,479] {logging_mixin.py:109} INFO - [2022-02-03 22:59:48,478] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 22:59:48,508] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.824 seconds
+[2022-02-03 23:00:18,902] {processor.py:163} INFO - Started process (PID=1400) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:00:18,909] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:00:18,913] {logging_mixin.py:109} INFO - [2022-02-03 23:00:18,912] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:00:22,673] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:00:22,723] {logging_mixin.py:109} INFO - [2022-02-03 23:00:22,722] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:00:22,803] {logging_mixin.py:109} INFO - [2022-02-03 23:00:22,802] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:00:22,836] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.942 seconds
+[2022-02-03 23:00:53,601] {processor.py:163} INFO - Started process (PID=1449) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:00:53,606] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:00:53,609] {logging_mixin.py:109} INFO - [2022-02-03 23:00:53,608] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:00:56,896] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:00:56,937] {logging_mixin.py:109} INFO - [2022-02-03 23:00:56,936] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:00:57,006] {logging_mixin.py:109} INFO - [2022-02-03 23:00:57,005] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:00:57,032] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.437 seconds
+[2022-02-03 23:01:27,349] {processor.py:163} INFO - Started process (PID=1515) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:01:27,354] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:01:27,357] {logging_mixin.py:109} INFO - [2022-02-03 23:01:27,357] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:01:30,385] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:01:30,417] {logging_mixin.py:109} INFO - [2022-02-03 23:01:30,416] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:01:30,469] {logging_mixin.py:109} INFO - [2022-02-03 23:01:30,468] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:01:30,490] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.150 seconds
+[2022-02-03 23:02:01,047] {processor.py:163} INFO - Started process (PID=1582) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:02:01,053] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:02:01,057] {logging_mixin.py:109} INFO - [2022-02-03 23:02:01,056] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:02:05,214] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:02:05,272] {logging_mixin.py:109} INFO - [2022-02-03 23:02:05,270] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:02:05,358] {logging_mixin.py:109} INFO - [2022-02-03 23:02:05,358] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:02:05,391] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.353 seconds
+[2022-02-03 23:02:36,052] {processor.py:163} INFO - Started process (PID=1650) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:02:36,061] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:02:36,065] {logging_mixin.py:109} INFO - [2022-02-03 23:02:36,064] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:02:39,889] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:02:39,935] {logging_mixin.py:109} INFO - [2022-02-03 23:02:39,934] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:02:40,007] {logging_mixin.py:109} INFO - [2022-02-03 23:02:40,007] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:02:40,049] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.004 seconds
+[2022-02-03 23:03:10,638] {processor.py:163} INFO - Started process (PID=1700) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:03:10,643] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:03:10,646] {logging_mixin.py:109} INFO - [2022-02-03 23:03:10,645] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:03:13,439] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:03:13,471] {logging_mixin.py:109} INFO - [2022-02-03 23:03:13,470] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:03:13,526] {logging_mixin.py:109} INFO - [2022-02-03 23:03:13,526] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:03:13,546] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.915 seconds
+[2022-02-03 23:03:44,049] {processor.py:163} INFO - Started process (PID=1763) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:03:44,056] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:03:44,060] {logging_mixin.py:109} INFO - [2022-02-03 23:03:44,060] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:03:47,931] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:03:47,968] {logging_mixin.py:109} INFO - [2022-02-03 23:03:47,967] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:03:48,035] {logging_mixin.py:109} INFO - [2022-02-03 23:03:48,034] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:03:48,058] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.017 seconds
+[2022-02-03 23:04:18,522] {processor.py:163} INFO - Started process (PID=1828) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:04:18,529] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:04:18,534] {logging_mixin.py:109} INFO - [2022-02-03 23:04:18,534] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:04:22,596] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:04:22,639] {logging_mixin.py:109} INFO - [2022-02-03 23:04:22,638] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:04:22,714] {logging_mixin.py:109} INFO - [2022-02-03 23:04:22,714] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:04:22,748] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.244 seconds
+[2022-02-03 23:04:53,272] {processor.py:163} INFO - Started process (PID=1879) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:04:53,278] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:04:53,281] {logging_mixin.py:109} INFO - [2022-02-03 23:04:53,281] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:04:56,899] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:04:56,954] {logging_mixin.py:109} INFO - [2022-02-03 23:04:56,952] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:04:57,032] {logging_mixin.py:109} INFO - [2022-02-03 23:04:57,031] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:04:57,060] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.798 seconds
+[2022-02-03 23:05:28,054] {processor.py:163} INFO - Started process (PID=1946) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:05:28,060] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:05:28,063] {logging_mixin.py:109} INFO - [2022-02-03 23:05:28,063] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:05:31,158] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:05:31,191] {logging_mixin.py:109} INFO - [2022-02-03 23:05:31,190] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:05:31,250] {logging_mixin.py:109} INFO - [2022-02-03 23:05:31,249] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:05:31,271] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.224 seconds
+[2022-02-03 23:06:01,861] {processor.py:163} INFO - Started process (PID=2009) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:06:01,869] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:06:01,873] {logging_mixin.py:109} INFO - [2022-02-03 23:06:01,873] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:06:07,193] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:06:07,238] {logging_mixin.py:109} INFO - [2022-02-03 23:06:07,237] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:06:07,325] {logging_mixin.py:109} INFO - [2022-02-03 23:06:07,324] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:06:07,372] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 5.537 seconds
+[2022-02-03 23:06:37,805] {processor.py:163} INFO - Started process (PID=2077) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:06:37,811] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:06:37,823] {logging_mixin.py:109} INFO - [2022-02-03 23:06:37,823] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:06:42,055] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:06:42,101] {logging_mixin.py:109} INFO - [2022-02-03 23:06:42,100] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:06:42,178] {logging_mixin.py:109} INFO - [2022-02-03 23:06:42,178] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:06:42,208] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.413 seconds
+[2022-02-03 23:07:12,700] {processor.py:163} INFO - Started process (PID=2129) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:07:12,705] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:07:12,710] {logging_mixin.py:109} INFO - [2022-02-03 23:07:12,709] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:07:15,863] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:07:15,911] {logging_mixin.py:109} INFO - [2022-02-03 23:07:15,910] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:07:16,082] {logging_mixin.py:109} INFO - [2022-02-03 23:07:16,081] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:07:16,142] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.449 seconds
+[2022-02-03 23:07:46,450] {processor.py:163} INFO - Started process (PID=2194) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:07:46,456] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:07:46,459] {logging_mixin.py:109} INFO - [2022-02-03 23:07:46,458] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:07:49,654] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:07:49,690] {logging_mixin.py:109} INFO - [2022-02-03 23:07:49,689] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:07:49,743] {logging_mixin.py:109} INFO - [2022-02-03 23:07:49,743] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:07:49,764] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.322 seconds
+[2022-02-03 23:08:20,229] {processor.py:163} INFO - Started process (PID=2262) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:08:20,235] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:08:20,239] {logging_mixin.py:109} INFO - [2022-02-03 23:08:20,239] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:08:24,324] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:08:24,389] {logging_mixin.py:109} INFO - [2022-02-03 23:08:24,387] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:08:24,512] {logging_mixin.py:109} INFO - [2022-02-03 23:08:24,512] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:08:24,542] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.321 seconds
+[2022-02-03 23:08:54,759] {processor.py:163} INFO - Started process (PID=2309) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:08:54,764] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:08:54,768] {logging_mixin.py:109} INFO - [2022-02-03 23:08:54,768] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:08:58,720] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:08:58,768] {logging_mixin.py:109} INFO - [2022-02-03 23:08:58,767] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:08:58,837] {logging_mixin.py:109} INFO - [2022-02-03 23:08:58,837] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:08:58,865] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.116 seconds
+[2022-02-03 23:09:29,242] {processor.py:163} INFO - Started process (PID=2372) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:09:29,247] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:09:29,250] {logging_mixin.py:109} INFO - [2022-02-03 23:09:29,249] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:09:32,160] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:09:32,194] {logging_mixin.py:109} INFO - [2022-02-03 23:09:32,193] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:09:32,254] {logging_mixin.py:109} INFO - [2022-02-03 23:09:32,253] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:09:32,278] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.043 seconds
+[2022-02-03 23:10:02,700] {processor.py:163} INFO - Started process (PID=2443) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:10:02,712] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:10:02,721] {logging_mixin.py:109} INFO - [2022-02-03 23:10:02,721] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:10:06,982] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:10:07,026] {logging_mixin.py:109} INFO - [2022-02-03 23:10:07,024] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:10:07,098] {logging_mixin.py:109} INFO - [2022-02-03 23:10:07,097] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:10:07,128] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.436 seconds
+[2022-02-03 23:10:37,699] {processor.py:163} INFO - Started process (PID=2511) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:10:37,706] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:10:37,711] {logging_mixin.py:109} INFO - [2022-02-03 23:10:37,711] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:10:41,757] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:10:41,827] {logging_mixin.py:109} INFO - [2022-02-03 23:10:41,825] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:10:41,913] {logging_mixin.py:109} INFO - [2022-02-03 23:10:41,912] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:10:41,948] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.260 seconds
+[2022-02-03 23:11:12,861] {processor.py:163} INFO - Started process (PID=2563) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:11:12,866] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:11:12,870] {logging_mixin.py:109} INFO - [2022-02-03 23:11:12,869] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:11:15,920] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:11:15,962] {logging_mixin.py:109} INFO - [2022-02-03 23:11:15,961] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:11:16,034] {logging_mixin.py:109} INFO - [2022-02-03 23:11:16,033] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:11:16,064] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.211 seconds
+[2022-02-03 23:11:46,376] {processor.py:163} INFO - Started process (PID=2628) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:11:46,381] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:11:46,384] {logging_mixin.py:109} INFO - [2022-02-03 23:11:46,384] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:11:49,571] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:11:49,603] {logging_mixin.py:109} INFO - [2022-02-03 23:11:49,602] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:11:49,656] {logging_mixin.py:109} INFO - [2022-02-03 23:11:49,656] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:11:49,678] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.309 seconds
+[2022-02-03 23:12:20,221] {processor.py:163} INFO - Started process (PID=2690) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:12:20,227] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:12:20,231] {logging_mixin.py:109} INFO - [2022-02-03 23:12:20,231] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:12:24,165] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:12:24,208] {logging_mixin.py:109} INFO - [2022-02-03 23:12:24,206] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:12:24,278] {logging_mixin.py:109} INFO - [2022-02-03 23:12:24,277] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:12:24,305] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.095 seconds
+[2022-02-03 23:12:55,209] {processor.py:163} INFO - Started process (PID=2750) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:12:55,221] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:12:55,225] {logging_mixin.py:109} INFO - [2022-02-03 23:12:55,224] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:12:59,143] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:12:59,190] {logging_mixin.py:109} INFO - [2022-02-03 23:12:59,189] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:12:59,261] {logging_mixin.py:109} INFO - [2022-02-03 23:12:59,261] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:12:59,288] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.088 seconds
+[2022-02-03 23:13:29,500] {processor.py:163} INFO - Started process (PID=2805) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:13:29,504] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:13:29,507] {logging_mixin.py:109} INFO - [2022-02-03 23:13:29,507] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:13:32,412] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:13:32,443] {logging_mixin.py:109} INFO - [2022-02-03 23:13:32,442] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:13:32,497] {logging_mixin.py:109} INFO - [2022-02-03 23:13:32,497] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:13:32,519] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.026 seconds
+[2022-02-03 23:14:03,282] {processor.py:163} INFO - Started process (PID=2870) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:14:03,289] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:14:03,292] {logging_mixin.py:109} INFO - [2022-02-03 23:14:03,292] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:14:07,253] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:14:07,290] {logging_mixin.py:109} INFO - [2022-02-03 23:14:07,289] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:14:07,348] {logging_mixin.py:109} INFO - [2022-02-03 23:14:07,348] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:14:07,373] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.098 seconds
+[2022-02-03 23:14:38,114] {processor.py:163} INFO - Started process (PID=2933) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:14:38,120] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:14:38,123] {logging_mixin.py:109} INFO - [2022-02-03 23:14:38,123] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:14:42,179] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:14:42,225] {logging_mixin.py:109} INFO - [2022-02-03 23:14:42,223] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:14:42,308] {logging_mixin.py:109} INFO - [2022-02-03 23:14:42,307] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:14:42,336] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.229 seconds
+[2022-02-03 23:15:13,014] {processor.py:163} INFO - Started process (PID=2980) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:15:13,019] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:15:13,022] {logging_mixin.py:109} INFO - [2022-02-03 23:15:13,022] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:15:16,050] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:15:16,097] {logging_mixin.py:109} INFO - [2022-02-03 23:15:16,096] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:15:16,175] {logging_mixin.py:109} INFO - [2022-02-03 23:15:16,175] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:15:16,215] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.207 seconds
+[2022-02-03 23:15:46,529] {processor.py:163} INFO - Started process (PID=3049) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:15:46,534] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:15:46,538] {logging_mixin.py:109} INFO - [2022-02-03 23:15:46,538] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:15:49,668] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:15:49,708] {logging_mixin.py:109} INFO - [2022-02-03 23:15:49,707] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:15:49,760] {logging_mixin.py:109} INFO - [2022-02-03 23:15:49,760] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:15:49,781] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.258 seconds
+[2022-02-03 23:16:20,052] {processor.py:163} INFO - Started process (PID=3113) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:16:20,059] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:16:20,062] {logging_mixin.py:109} INFO - [2022-02-03 23:16:20,062] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:16:24,230] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:16:24,280] {logging_mixin.py:109} INFO - [2022-02-03 23:16:24,278] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:16:24,359] {logging_mixin.py:109} INFO - [2022-02-03 23:16:24,359] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:16:24,448] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.405 seconds
+[2022-02-03 23:16:54,986] {processor.py:163} INFO - Started process (PID=3161) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:16:54,990] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:16:54,993] {logging_mixin.py:109} INFO - [2022-02-03 23:16:54,993] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:16:59,131] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:16:59,212] {logging_mixin.py:109} INFO - [2022-02-03 23:16:59,211] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:16:59,285] {logging_mixin.py:109} INFO - [2022-02-03 23:16:59,284] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:16:59,314] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.333 seconds
+[2022-02-03 23:17:29,711] {processor.py:163} INFO - Started process (PID=3228) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:17:29,716] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:17:29,718] {logging_mixin.py:109} INFO - [2022-02-03 23:17:29,718] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:17:32,542] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:17:32,579] {logging_mixin.py:109} INFO - [2022-02-03 23:17:32,578] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:17:32,634] {logging_mixin.py:109} INFO - [2022-02-03 23:17:32,634] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:17:32,656] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.951 seconds
+[2022-02-03 23:18:02,785] {processor.py:163} INFO - Started process (PID=3293) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:18:02,791] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:18:02,796] {logging_mixin.py:109} INFO - [2022-02-03 23:18:02,795] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:18:06,933] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:18:06,974] {logging_mixin.py:109} INFO - [2022-02-03 23:18:06,973] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:18:07,044] {logging_mixin.py:109} INFO - [2022-02-03 23:18:07,043] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:18:07,072] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.295 seconds
+[2022-02-03 23:18:37,155] {processor.py:163} INFO - Started process (PID=3359) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:18:37,162] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:18:37,168] {logging_mixin.py:109} INFO - [2022-02-03 23:18:37,167] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:18:40,993] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:18:41,049] {logging_mixin.py:109} INFO - [2022-02-03 23:18:41,048] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:18:41,141] {logging_mixin.py:109} INFO - [2022-02-03 23:18:41,140] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:18:41,167] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.026 seconds
+[2022-02-03 23:19:11,348] {processor.py:163} INFO - Started process (PID=3399) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:19:11,353] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:19:11,355] {logging_mixin.py:109} INFO - [2022-02-03 23:19:11,355] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:19:14,250] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:19:14,286] {logging_mixin.py:109} INFO - [2022-02-03 23:19:14,285] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:19:14,350] {logging_mixin.py:109} INFO - [2022-02-03 23:19:14,350] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:19:14,374] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.036 seconds
+[2022-02-03 23:19:45,007] {processor.py:163} INFO - Started process (PID=3467) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:19:45,013] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:19:45,016] {logging_mixin.py:109} INFO - [2022-02-03 23:19:45,016] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:19:48,773] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:19:48,812] {logging_mixin.py:109} INFO - [2022-02-03 23:19:48,810] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:19:48,879] {logging_mixin.py:109} INFO - [2022-02-03 23:19:48,878] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:19:48,905] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.907 seconds
+[2022-02-03 23:20:19,617] {processor.py:163} INFO - Started process (PID=3531) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:20:19,626] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:20:19,631] {logging_mixin.py:109} INFO - [2022-02-03 23:20:19,631] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:20:23,829] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:20:23,875] {logging_mixin.py:109} INFO - [2022-02-03 23:20:23,874] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:20:23,989] {logging_mixin.py:109} INFO - [2022-02-03 23:20:23,988] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:20:24,028] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.422 seconds
+[2022-02-03 23:20:54,561] {processor.py:163} INFO - Started process (PID=3579) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:20:54,568] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:20:54,573] {logging_mixin.py:109} INFO - [2022-02-03 23:20:54,573] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:20:58,174] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:20:58,222] {logging_mixin.py:109} INFO - [2022-02-03 23:20:58,221] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:20:58,297] {logging_mixin.py:109} INFO - [2022-02-03 23:20:58,296] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:20:58,325] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.768 seconds
+[2022-02-03 23:21:28,643] {processor.py:163} INFO - Started process (PID=3643) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:21:28,648] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:21:28,651] {logging_mixin.py:109} INFO - [2022-02-03 23:21:28,651] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:21:31,505] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:21:31,540] {logging_mixin.py:109} INFO - [2022-02-03 23:21:31,539] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:21:31,603] {logging_mixin.py:109} INFO - [2022-02-03 23:21:31,603] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:21:31,628] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.996 seconds
+[2022-02-03 23:22:02,478] {processor.py:163} INFO - Started process (PID=3706) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:22:02,484] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:22:02,489] {logging_mixin.py:109} INFO - [2022-02-03 23:22:02,489] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:22:06,589] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:22:06,646] {logging_mixin.py:109} INFO - [2022-02-03 23:22:06,644] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:22:06,739] {logging_mixin.py:109} INFO - [2022-02-03 23:22:06,738] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:22:06,772] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.304 seconds
+[2022-02-03 23:22:37,473] {processor.py:163} INFO - Started process (PID=3772) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:22:37,480] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:22:37,483] {logging_mixin.py:109} INFO - [2022-02-03 23:22:37,482] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:22:41,454] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:22:41,499] {logging_mixin.py:109} INFO - [2022-02-03 23:22:41,498] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:22:41,574] {logging_mixin.py:109} INFO - [2022-02-03 23:22:41,574] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:22:41,603] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.141 seconds
+[2022-02-03 23:23:12,302] {processor.py:163} INFO - Started process (PID=3820) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:23:12,306] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:23:12,309] {logging_mixin.py:109} INFO - [2022-02-03 23:23:12,308] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:23:15,285] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:23:15,323] {logging_mixin.py:109} INFO - [2022-02-03 23:23:15,322] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:23:15,385] {logging_mixin.py:109} INFO - [2022-02-03 23:23:15,385] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:23:15,411] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.116 seconds
+[2022-02-03 23:23:45,999] {processor.py:163} INFO - Started process (PID=3886) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:23:46,009] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:23:46,013] {logging_mixin.py:109} INFO - [2022-02-03 23:23:46,012] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:23:49,274] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:23:49,308] {logging_mixin.py:109} INFO - [2022-02-03 23:23:49,307] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:23:49,367] {logging_mixin.py:109} INFO - [2022-02-03 23:23:49,366] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:23:49,390] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.399 seconds
+[2022-02-03 23:24:19,969] {processor.py:163} INFO - Started process (PID=3950) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:24:19,973] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:24:19,976] {logging_mixin.py:109} INFO - [2022-02-03 23:24:19,976] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:24:23,821] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:24:23,869] {logging_mixin.py:109} INFO - [2022-02-03 23:24:23,868] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:24:23,948] {logging_mixin.py:109} INFO - [2022-02-03 23:24:23,947] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:24:23,977] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.016 seconds
+[2022-02-03 23:24:54,377] {processor.py:163} INFO - Started process (PID=3999) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:24:54,382] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:24:54,385] {logging_mixin.py:109} INFO - [2022-02-03 23:24:54,385] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:24:57,559] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:24:57,640] {logging_mixin.py:109} INFO - [2022-02-03 23:24:57,639] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:24:57,718] {logging_mixin.py:109} INFO - [2022-02-03 23:24:57,718] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:24:57,755] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.383 seconds
+[2022-02-03 23:25:27,900] {processor.py:163} INFO - Started process (PID=4064) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:25:27,905] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:25:27,908] {logging_mixin.py:109} INFO - [2022-02-03 23:25:27,908] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:25:30,716] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:25:30,751] {logging_mixin.py:109} INFO - [2022-02-03 23:25:30,750] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:25:30,808] {logging_mixin.py:109} INFO - [2022-02-03 23:25:30,808] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:25:30,830] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.938 seconds
+[2022-02-03 23:26:01,667] {processor.py:163} INFO - Started process (PID=4127) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:26:01,672] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:26:01,675] {logging_mixin.py:109} INFO - [2022-02-03 23:26:01,675] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:26:05,885] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:26:05,931] {logging_mixin.py:109} INFO - [2022-02-03 23:26:05,930] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:26:06,009] {logging_mixin.py:109} INFO - [2022-02-03 23:26:06,008] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:26:06,040] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.382 seconds
+[2022-02-03 23:26:36,931] {processor.py:163} INFO - Started process (PID=4192) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:26:36,937] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:26:36,941] {logging_mixin.py:109} INFO - [2022-02-03 23:26:36,941] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:26:40,905] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:26:40,956] {logging_mixin.py:109} INFO - [2022-02-03 23:26:40,954] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:26:41,087] {logging_mixin.py:109} INFO - [2022-02-03 23:26:41,087] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:26:41,130] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.207 seconds
+[2022-02-03 23:27:11,601] {processor.py:163} INFO - Started process (PID=4238) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:27:11,610] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:27:11,613] {logging_mixin.py:109} INFO - [2022-02-03 23:27:11,612] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:27:14,367] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:27:14,410] {logging_mixin.py:109} INFO - [2022-02-03 23:27:14,408] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:27:14,472] {logging_mixin.py:109} INFO - [2022-02-03 23:27:14,472] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:27:14,496] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.908 seconds
+[2022-02-03 23:27:44,596] {processor.py:163} INFO - Started process (PID=4304) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:27:44,601] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:27:44,604] {logging_mixin.py:109} INFO - [2022-02-03 23:27:44,604] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:27:48,335] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:27:48,373] {logging_mixin.py:109} INFO - [2022-02-03 23:27:48,372] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:27:48,438] {logging_mixin.py:109} INFO - [2022-02-03 23:27:48,438] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:27:48,463] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.875 seconds
+[2022-02-03 23:28:18,921] {processor.py:163} INFO - Started process (PID=4373) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:28:18,927] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:28:18,930] {logging_mixin.py:109} INFO - [2022-02-03 23:28:18,930] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:28:22,834] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:28:22,920] {logging_mixin.py:109} INFO - [2022-02-03 23:28:22,919] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:28:23,003] {logging_mixin.py:109} INFO - [2022-02-03 23:28:23,002] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:28:23,033] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.121 seconds
+[2022-02-03 23:28:53,539] {processor.py:163} INFO - Started process (PID=4422) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:28:53,545] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:28:53,548] {logging_mixin.py:109} INFO - [2022-02-03 23:28:53,548] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:28:56,691] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:28:56,752] {logging_mixin.py:109} INFO - [2022-02-03 23:28:56,750] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:28:56,827] {logging_mixin.py:109} INFO - [2022-02-03 23:28:56,826] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:28:56,865] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.333 seconds
+[2022-02-03 23:29:27,237] {processor.py:163} INFO - Started process (PID=4487) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:29:27,242] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:29:27,245] {logging_mixin.py:109} INFO - [2022-02-03 23:29:27,245] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:29:30,489] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:29:30,524] {logging_mixin.py:109} INFO - [2022-02-03 23:29:30,523] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:29:30,580] {logging_mixin.py:109} INFO - [2022-02-03 23:29:30,580] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:29:30,601] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.371 seconds
+[2022-02-03 23:30:01,413] {processor.py:163} INFO - Started process (PID=4562) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:30:01,419] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:30:01,422] {logging_mixin.py:109} INFO - [2022-02-03 23:30:01,422] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:30:05,198] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:30:05,240] {logging_mixin.py:109} INFO - [2022-02-03 23:30:05,238] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:30:05,315] {logging_mixin.py:109} INFO - [2022-02-03 23:30:05,314] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:30:05,344] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.939 seconds
+[2022-02-03 23:30:36,081] {processor.py:163} INFO - Started process (PID=4621) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:30:36,087] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:30:36,091] {logging_mixin.py:109} INFO - [2022-02-03 23:30:36,091] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:30:39,635] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:30:39,677] {logging_mixin.py:109} INFO - [2022-02-03 23:30:39,677] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:30:39,749] {logging_mixin.py:109} INFO - [2022-02-03 23:30:39,749] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:30:39,778] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.706 seconds
+[2022-02-03 23:31:10,323] {processor.py:163} INFO - Started process (PID=4678) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:31:10,328] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:31:10,331] {logging_mixin.py:109} INFO - [2022-02-03 23:31:10,331] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:31:13,075] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:31:13,108] {logging_mixin.py:109} INFO - [2022-02-03 23:31:13,107] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:31:13,158] {logging_mixin.py:109} INFO - [2022-02-03 23:31:13,158] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:31:13,179] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.863 seconds
+[2022-02-03 23:31:43,521] {processor.py:163} INFO - Started process (PID=4743) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:31:43,526] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:31:43,530] {logging_mixin.py:109} INFO - [2022-02-03 23:31:43,530] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:31:47,349] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:31:47,397] {logging_mixin.py:109} INFO - [2022-02-03 23:31:47,395] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:31:47,465] {logging_mixin.py:109} INFO - [2022-02-03 23:31:47,464] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:31:47,493] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.980 seconds
+[2022-02-03 23:32:18,304] {processor.py:163} INFO - Started process (PID=4808) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:32:18,309] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:32:18,315] {logging_mixin.py:109} INFO - [2022-02-03 23:32:18,314] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:32:22,020] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:32:22,062] {logging_mixin.py:109} INFO - [2022-02-03 23:32:22,061] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:32:22,157] {logging_mixin.py:109} INFO - [2022-02-03 23:32:22,156] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:32:22,188] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.891 seconds
+[2022-02-03 23:32:52,917] {processor.py:163} INFO - Started process (PID=4858) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:32:52,923] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:32:52,925] {logging_mixin.py:109} INFO - [2022-02-03 23:32:52,925] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:32:55,666] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:32:55,698] {logging_mixin.py:109} INFO - [2022-02-03 23:32:55,697] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:32:55,778] {logging_mixin.py:109} INFO - [2022-02-03 23:32:55,777] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:32:55,808] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.899 seconds
+[2022-02-03 23:33:26,189] {processor.py:163} INFO - Started process (PID=4922) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:33:26,195] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:33:26,199] {logging_mixin.py:109} INFO - [2022-02-03 23:33:26,198] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:33:29,347] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:33:29,386] {logging_mixin.py:109} INFO - [2022-02-03 23:33:29,385] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:33:29,446] {logging_mixin.py:109} INFO - [2022-02-03 23:33:29,446] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:33:29,470] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.288 seconds
+[2022-02-03 23:34:00,182] {processor.py:163} INFO - Started process (PID=4985) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:34:00,187] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:34:00,191] {logging_mixin.py:109} INFO - [2022-02-03 23:34:00,190] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:34:04,012] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:34:04,059] {logging_mixin.py:109} INFO - [2022-02-03 23:34:04,057] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:34:04,127] {logging_mixin.py:109} INFO - [2022-02-03 23:34:04,126] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:34:04,158] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.984 seconds
+[2022-02-03 23:34:34,437] {processor.py:163} INFO - Started process (PID=5033) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:34:34,442] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:34:34,445] {logging_mixin.py:109} INFO - [2022-02-03 23:34:34,444] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:34:37,583] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:34:37,625] {logging_mixin.py:109} INFO - [2022-02-03 23:34:37,624] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:34:37,696] {logging_mixin.py:109} INFO - [2022-02-03 23:34:37,695] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:34:37,728] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.297 seconds
+[2022-02-03 23:35:07,997] {processor.py:163} INFO - Started process (PID=5100) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:35:08,002] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:35:08,005] {logging_mixin.py:109} INFO - [2022-02-03 23:35:08,005] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:35:10,808] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:35:10,840] {logging_mixin.py:109} INFO - [2022-02-03 23:35:10,839] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:35:10,894] {logging_mixin.py:109} INFO - [2022-02-03 23:35:10,894] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:35:10,915] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.924 seconds
+[2022-02-03 23:35:41,247] {processor.py:163} INFO - Started process (PID=5161) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:35:41,253] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:35:41,257] {logging_mixin.py:109} INFO - [2022-02-03 23:35:41,257] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:35:44,993] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:35:45,039] {logging_mixin.py:109} INFO - [2022-02-03 23:35:45,038] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:35:45,115] {logging_mixin.py:109} INFO - [2022-02-03 23:35:45,114] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:35:45,143] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.903 seconds
+[2022-02-03 23:36:15,483] {processor.py:163} INFO - Started process (PID=5209) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:36:15,488] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:36:15,491] {logging_mixin.py:109} INFO - [2022-02-03 23:36:15,490] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:36:19,221] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:36:19,267] {logging_mixin.py:109} INFO - [2022-02-03 23:36:19,266] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:36:19,344] {logging_mixin.py:109} INFO - [2022-02-03 23:36:19,343] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:36:19,371] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.894 seconds
+[2022-02-03 23:36:49,966] {processor.py:163} INFO - Started process (PID=5270) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:36:49,971] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:36:49,974] {logging_mixin.py:109} INFO - [2022-02-03 23:36:49,973] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:36:52,644] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:36:52,677] {logging_mixin.py:109} INFO - [2022-02-03 23:36:52,676] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:36:52,735] {logging_mixin.py:109} INFO - [2022-02-03 23:36:52,735] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:36:52,756] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.797 seconds
+[2022-02-03 23:37:23,353] {processor.py:163} INFO - Started process (PID=5337) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:37:23,359] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:37:23,363] {logging_mixin.py:109} INFO - [2022-02-03 23:37:23,362] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:37:26,838] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:37:26,881] {logging_mixin.py:109} INFO - [2022-02-03 23:37:26,880] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:37:26,956] {logging_mixin.py:109} INFO - [2022-02-03 23:37:26,955] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:37:26,984] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.637 seconds
+[2022-02-03 23:37:57,190] {processor.py:163} INFO - Started process (PID=5402) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:37:57,202] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:37:57,205] {logging_mixin.py:109} INFO - [2022-02-03 23:37:57,205] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:38:00,737] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:38:00,780] {logging_mixin.py:109} INFO - [2022-02-03 23:38:00,779] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:38:00,846] {logging_mixin.py:109} INFO - [2022-02-03 23:38:00,846] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:38:00,872] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.689 seconds
+[2022-02-03 23:38:30,988] {processor.py:163} INFO - Started process (PID=5449) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:38:30,993] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:38:30,996] {logging_mixin.py:109} INFO - [2022-02-03 23:38:30,996] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:38:33,668] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:38:33,702] {logging_mixin.py:109} INFO - [2022-02-03 23:38:33,701] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:38:33,755] {logging_mixin.py:109} INFO - [2022-02-03 23:38:33,755] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:38:33,777] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.795 seconds
+[2022-02-03 23:39:04,504] {processor.py:163} INFO - Started process (PID=5513) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:39:04,509] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:39:04,514] {logging_mixin.py:109} INFO - [2022-02-03 23:39:04,513] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:39:08,048] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:39:08,085] {logging_mixin.py:109} INFO - [2022-02-03 23:39:08,084] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:39:08,144] {logging_mixin.py:109} INFO - [2022-02-03 23:39:08,144] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:39:08,169] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.673 seconds
+[2022-02-03 23:39:38,961] {processor.py:163} INFO - Started process (PID=5579) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:39:38,966] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:39:38,970] {logging_mixin.py:109} INFO - [2022-02-03 23:39:38,969] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:39:42,616] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:39:42,657] {logging_mixin.py:109} INFO - [2022-02-03 23:39:42,656] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:39:42,724] {logging_mixin.py:109} INFO - [2022-02-03 23:39:42,723] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:39:42,750] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.797 seconds
+[2022-02-03 23:40:12,825] {processor.py:163} INFO - Started process (PID=5626) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:40:12,830] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:40:12,833] {logging_mixin.py:109} INFO - [2022-02-03 23:40:12,832] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:40:15,512] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:40:15,545] {logging_mixin.py:109} INFO - [2022-02-03 23:40:15,544] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:40:15,596] {logging_mixin.py:109} INFO - [2022-02-03 23:40:15,596] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:40:15,616] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 2.797 seconds
+[2022-02-03 23:40:46,065] {processor.py:163} INFO - Started process (PID=5690) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:40:46,072] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:40:46,075] {logging_mixin.py:109} INFO - [2022-02-03 23:40:46,075] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:40:49,435] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:40:49,472] {logging_mixin.py:109} INFO - [2022-02-03 23:40:49,471] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:40:49,533] {logging_mixin.py:109} INFO - [2022-02-03 23:40:49,533] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:40:49,558] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.501 seconds
+[2022-02-03 23:41:19,732] {processor.py:163} INFO - Started process (PID=5753) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:41:19,744] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:41:19,747] {logging_mixin.py:109} INFO - [2022-02-03 23:41:19,747] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:41:23,531] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:41:23,575] {logging_mixin.py:109} INFO - [2022-02-03 23:41:23,574] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:41:23,651] {logging_mixin.py:109} INFO - [2022-02-03 23:41:23,650] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:41:23,680] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.967 seconds
+[2022-02-03 23:41:54,173] {processor.py:163} INFO - Started process (PID=5797) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:41:54,179] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:41:54,182] {logging_mixin.py:109} INFO - [2022-02-03 23:41:54,182] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:41:57,298] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:41:57,344] {logging_mixin.py:109} INFO - [2022-02-03 23:41:57,342] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:41:57,454] {logging_mixin.py:109} INFO - [2022-02-03 23:41:57,454] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:41:57,490] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.325 seconds
+[2022-02-03 23:42:28,185] {processor.py:163} INFO - Started process (PID=5863) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:42:28,190] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:42:28,192] {logging_mixin.py:109} INFO - [2022-02-03 23:42:28,192] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:42:31,157] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:42:31,196] {logging_mixin.py:109} INFO - [2022-02-03 23:42:31,195] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:42:31,262] {logging_mixin.py:109} INFO - [2022-02-03 23:42:31,261] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:42:31,285] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 3.106 seconds
+[2022-02-03 23:43:01,814] {processor.py:163} INFO - Started process (PID=5928) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:43:01,820] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:43:01,823] {logging_mixin.py:109} INFO - [2022-02-03 23:43:01,822] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:43:05,849] {processor.py:654} INFO - DAG(s) dict_keys(['new_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:43:05,951] {logging_mixin.py:109} INFO - [2022-02-03 23:43:05,950] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:43:06,028] {logging_mixin.py:109} INFO - [2022-02-03 23:43:06,027] {dag.py:2935} INFO - Setting next_dagrun for new_data_ingestion_gcs_dag to 2022-02-02 00:00:00+00:00
+[2022-02-03 23:43:06,058] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 4.253 seconds
+[2022-02-03 23:59:43,145] {processor.py:163} INFO - Started process (PID=5975) to work on /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-03 23:59:43,156] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_parquet_data_gcs.py for tasks to queue
+[2022-02-03 23:59:43,160] {logging_mixin.py:109} INFO - [2022-02-03 23:59:43,159] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-04 00:15:48,695] {logging_mixin.py:109} INFO - [2022-02-04 00:15:48,660] {timeout.py:36} ERROR - Process timed out, PID: 5975
+[2022-02-04 00:15:48,800] {logging_mixin.py:109} INFO - [2022-02-04 00:15:48,713] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ingest_parquet_data_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ingest_parquet_data_gcs.py", line 9, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 46, in <module>
+    from googleapiclient.discovery import Resource, build
+  File "/home/airflow/.local/lib/python3.7/site-packages/googleapiclient/discovery.py", line 48, in <module>
+    import httplib2
+  File "/home/airflow/.local/lib/python3.7/site-packages/httplib2/__init__.py", line 52, in <module>
+    from . import auth
+  File "/home/airflow/.local/lib/python3.7/site-packages/httplib2/auth.py", line 4, in <module>
+    import pyparsing as pp
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 857, in get_code
+  File "<frozen importlib._bootstrap_external>", line 525, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/ingest_parquet_data_gcs.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 5975
+[2022-02-04 00:15:48,952] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-04 00:15:48,955] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ingest_parquet_data_gcs.py
+[2022-02-04 00:15:49,048] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_parquet_data_gcs.py took 30.465 seconds

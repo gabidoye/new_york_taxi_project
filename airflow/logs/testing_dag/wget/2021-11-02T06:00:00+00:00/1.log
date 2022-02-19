@@ -1,0 +1,85 @@
+[2022-01-31 03:51:36,084] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.wget scheduled__2021-11-02T06:00:00+00:00 [queued]>
+[2022-01-31 03:51:36,153] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.wget scheduled__2021-11-02T06:00:00+00:00 [queued]>
+[2022-01-31 03:51:36,155] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 03:51:36,159] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-01-31 03:51:36,161] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 03:51:36,282] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): wget> on 2021-11-02 06:00:00+00:00
+[2022-01-31 03:51:36,290] {standard_task_runner.py:52} INFO - Started process 3510 to run task
+[2022-01-31 03:51:36,299] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'testing_dag', 'wget', 'scheduled__2021-11-02T06:00:00+00:00', '--job-id', '75', '--raw', '--subdir', 'DAGS_FOLDER/testing_dag.py', '--cfg-path', '/tmp/tmpoh1sphpo', '--error-file', '/tmp/tmpmtr_a3zg']
+[2022-01-31 03:51:36,302] {standard_task_runner.py:77} INFO - Job 75: Subtask wget
+[2022-01-31 03:51:36,548] {logging_mixin.py:109} INFO - Running <TaskInstance: testing_dag.wget scheduled__2021-11-02T06:00:00+00:00 [running]> on host 5beebf73c64a
+[2022-01-31 03:51:36,803] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=testing_dag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-11-02T06:00:00+00:00
+[2022-01-31 03:51:36,809] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-01-31 03:51:36,813] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo "Hello World"']
+[2022-01-31 03:51:36,845] {subprocess.py:85} INFO - Output:
+[2022-01-31 03:51:36,898] {subprocess.py:89} INFO - Hello World
+[2022-01-31 03:51:36,902] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-01-31 03:51:36,974] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=testing_dag, task_id=wget, execution_date=20211102T060000, start_date=20220131T035136, end_date=20220131T035136
+[2022-01-31 03:51:37,079] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-31 03:51:37,231] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-01-31 17:24:24,550] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.wget scheduled__2021-11-02T06:00:00+00:00 [queued]>
+[2022-01-31 17:24:25,375] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.wget scheduled__2021-11-02T06:00:00+00:00 [queued]>
+[2022-01-31 17:24:25,387] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 17:24:25,395] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-01-31 17:24:25,404] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 17:24:25,808] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): wget> on 2021-11-02 06:00:00+00:00
+[2022-01-31 17:24:25,842] {standard_task_runner.py:52} INFO - Started process 39604 to run task
+[2022-01-31 17:24:25,879] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'testing_dag', 'wget', 'scheduled__2021-11-02T06:00:00+00:00', '--job-id', '134', '--raw', '--subdir', 'DAGS_FOLDER/testing_dag.py', '--cfg-path', '/tmp/tmpqaceac7a', '--error-file', '/tmp/tmpn914k3bs']
+[2022-01-31 17:24:25,904] {standard_task_runner.py:77} INFO - Job 134: Subtask wget
+[2022-01-31 17:24:26,665] {logging_mixin.py:109} INFO - Running <TaskInstance: testing_dag.wget scheduled__2021-11-02T06:00:00+00:00 [running]> on host 5beebf73c64a
+[2022-01-31 17:24:27,210] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-31 17:24:27,332] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=testing_dag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-11-02T06:00:00+00:00
+[2022-01-31 17:24:27,352] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-01-31 17:24:27,365] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-11.csv > /opt/***/output_2021-11.csv']
+[2022-01-31 17:24:27,460] {subprocess.py:85} INFO - Output:
+[2022-01-31 17:24:29,779] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-01-31 17:24:30,129] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=testing_dag, task_id=wget, execution_date=20211102T060000, start_date=20220131T172424, end_date=20220131T172430
+[2022-01-31 17:24:30,468] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-31 17:24:31,480] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-01-31 17:52:25,467] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.wget scheduled__2021-11-02T06:00:00+00:00 [queued]>
+[2022-01-31 17:52:25,816] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.wget scheduled__2021-11-02T06:00:00+00:00 [queued]>
+[2022-01-31 17:52:25,828] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 17:52:25,830] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-01-31 17:52:25,832] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 17:52:25,923] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): wget> on 2021-11-02 06:00:00+00:00
+[2022-01-31 17:52:25,934] {standard_task_runner.py:52} INFO - Started process 41302 to run task
+[2022-01-31 17:52:25,969] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'testing_dag', 'wget', 'scheduled__2021-11-02T06:00:00+00:00', '--job-id', '154', '--raw', '--subdir', 'DAGS_FOLDER/testing_dag.py', '--cfg-path', '/tmp/tmp2v93z8vb', '--error-file', '/tmp/tmpc6w1w8sk']
+[2022-01-31 17:52:25,974] {standard_task_runner.py:77} INFO - Job 154: Subtask wget
+[2022-01-31 17:52:26,736] {logging_mixin.py:109} INFO - Running <TaskInstance: testing_dag.wget scheduled__2021-11-02T06:00:00+00:00 [running]> on host 5beebf73c64a
+[2022-01-31 17:52:28,308] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-31 17:52:28,930] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=testing_dag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-11-02T06:00:00+00:00
+[2022-01-31 17:52:28,968] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-01-31 17:52:28,974] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-11.csv > /opt/***/output_2021-11.csv']
+[2022-01-31 17:52:29,086] {subprocess.py:85} INFO - Output:
+[2022-01-31 17:52:30,731] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-01-31 17:52:32,901] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=testing_dag, task_id=wget, execution_date=20211102T060000, start_date=20220131T175225, end_date=20220131T175232
+[2022-01-31 17:52:33,540] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-31 17:52:34,009] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

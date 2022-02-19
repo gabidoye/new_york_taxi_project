@@ -1,0 +1,119 @@
+[2022-01-31 03:51:30,703] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.ingest scheduled__2021-09-02T06:00:00+00:00 [queued]>
+[2022-01-31 03:51:30,761] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.ingest scheduled__2021-09-02T06:00:00+00:00 [queued]>
+[2022-01-31 03:51:30,763] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 03:51:30,765] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-01-31 03:51:30,766] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 03:51:30,826] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): ingest> on 2021-09-02 06:00:00+00:00
+[2022-01-31 03:51:30,835] {standard_task_runner.py:52} INFO - Started process 3492 to run task
+[2022-01-31 03:51:30,843] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'testing_dag', 'ingest', 'scheduled__2021-09-02T06:00:00+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/testing_dag.py', '--cfg-path', '/tmp/tmpm0c9hnkt', '--error-file', '/tmp/tmpr_zsa295']
+[2022-01-31 03:51:30,845] {standard_task_runner.py:77} INFO - Job 72: Subtask ingest
+[2022-01-31 03:51:31,040] {logging_mixin.py:109} INFO - Running <TaskInstance: testing_dag.ingest scheduled__2021-09-02T06:00:00+00:00 [running]> on host 5beebf73c64a
+[2022-01-31 03:51:31,307] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=testing_dag
+AIRFLOW_CTX_TASK_ID=ingest
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-09-02T06:00:00+00:00
+[2022-01-31 03:51:31,323] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-01-31 03:51:31,327] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo "pwd"']
+[2022-01-31 03:51:31,368] {subprocess.py:85} INFO - Output:
+[2022-01-31 03:51:31,426] {subprocess.py:89} INFO - pwd
+[2022-01-31 03:51:31,433] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-01-31 03:51:31,546] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=testing_dag, task_id=ingest, execution_date=20210902T060000, start_date=20220131T035130, end_date=20220131T035131
+[2022-01-31 03:51:31,670] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-31 03:51:31,784] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-01-31 17:24:09,042] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.ingest scheduled__2021-09-02T06:00:00+00:00 [queued]>
+[2022-01-31 17:24:09,249] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.ingest scheduled__2021-09-02T06:00:00+00:00 [queued]>
+[2022-01-31 17:24:09,256] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 17:24:09,259] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-01-31 17:24:09,263] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 17:24:09,380] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): ingest> on 2021-09-02 06:00:00+00:00
+[2022-01-31 17:24:09,405] {standard_task_runner.py:52} INFO - Started process 39551 to run task
+[2022-01-31 17:24:09,468] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'testing_dag', 'ingest', 'scheduled__2021-09-02T06:00:00+00:00', '--job-id', '130', '--raw', '--subdir', 'DAGS_FOLDER/testing_dag.py', '--cfg-path', '/tmp/tmpktgqpcfn', '--error-file', '/tmp/tmpbrca0g1p']
+[2022-01-31 17:24:09,488] {standard_task_runner.py:77} INFO - Job 130: Subtask ingest
+[2022-01-31 17:24:10,586] {logging_mixin.py:109} INFO - Running <TaskInstance: testing_dag.ingest scheduled__2021-09-02T06:00:00+00:00 [running]> on host 5beebf73c64a
+[2022-01-31 17:24:11,577] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=testing_dag
+AIRFLOW_CTX_TASK_ID=ingest
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-09-02T06:00:00+00:00
+[2022-01-31 17:24:11,626] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-01-31 17:24:11,642] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'ls /opt/***']
+[2022-01-31 17:24:11,722] {subprocess.py:85} INFO - Output:
+[2022-01-31 17:24:11,875] {subprocess.py:89} INFO - ***-worker.pid
+[2022-01-31 17:24:11,885] {subprocess.py:89} INFO - ***.cfg
+[2022-01-31 17:24:11,888] {subprocess.py:89} INFO - dags
+[2022-01-31 17:24:11,890] {subprocess.py:89} INFO - google_credentials.json
+[2022-01-31 17:24:11,894] {subprocess.py:89} INFO - logs
+[2022-01-31 17:24:11,897] {subprocess.py:89} INFO - output.csv
+[2022-01-31 17:24:11,899] {subprocess.py:89} INFO - output_2021-01.csv
+[2022-01-31 17:24:11,903] {subprocess.py:89} INFO - output_2021-02.csv
+[2022-01-31 17:24:11,907] {subprocess.py:89} INFO - output_2021-03.csv
+[2022-01-31 17:24:11,912] {subprocess.py:89} INFO - output_2021-04.csv
+[2022-01-31 17:24:11,915] {subprocess.py:89} INFO - output_2021-05.csv
+[2022-01-31 17:24:11,917] {subprocess.py:89} INFO - output_2021-06.csv
+[2022-01-31 17:24:11,919] {subprocess.py:89} INFO - output_2021-07.csv
+[2022-01-31 17:24:11,923] {subprocess.py:89} INFO - output_2021-08.csv
+[2022-01-31 17:24:11,928] {subprocess.py:89} INFO - output_2021-09.csv
+[2022-01-31 17:24:11,930] {subprocess.py:89} INFO - output_2022-01.csv
+[2022-01-31 17:24:11,932] {subprocess.py:89} INFO - plugins
+[2022-01-31 17:24:11,936] {subprocess.py:89} INFO - requirements.txt
+[2022-01-31 17:24:11,940] {subprocess.py:89} INFO - webserver_config.py
+[2022-01-31 17:24:11,943] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-01-31 17:24:13,095] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=testing_dag, task_id=ingest, execution_date=20210902T060000, start_date=20220131T172409, end_date=20220131T172413
+[2022-01-31 17:24:13,353] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-31 17:24:13,643] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-01-31 17:52:34,030] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.ingest scheduled__2021-09-02T06:00:00+00:00 [queued]>
+[2022-01-31 17:52:34,183] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.ingest scheduled__2021-09-02T06:00:00+00:00 [queued]>
+[2022-01-31 17:52:34,187] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 17:52:34,188] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-01-31 17:52:34,190] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 17:52:34,404] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): ingest> on 2021-09-02 06:00:00+00:00
+[2022-01-31 17:52:34,437] {standard_task_runner.py:52} INFO - Started process 41339 to run task
+[2022-01-31 17:52:34,516] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'testing_dag', 'ingest', 'scheduled__2021-09-02T06:00:00+00:00', '--job-id', '158', '--raw', '--subdir', 'DAGS_FOLDER/testing_dag.py', '--cfg-path', '/tmp/tmprdrxso8y', '--error-file', '/tmp/tmp7xoyerei']
+[2022-01-31 17:52:34,542] {standard_task_runner.py:77} INFO - Job 158: Subtask ingest
+[2022-01-31 17:52:35,825] {logging_mixin.py:109} INFO - Running <TaskInstance: testing_dag.ingest scheduled__2021-09-02T06:00:00+00:00 [running]> on host 5beebf73c64a
+[2022-01-31 17:52:36,878] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=testing_dag
+AIRFLOW_CTX_TASK_ID=ingest
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-09-02T06:00:00+00:00
+[2022-01-31 17:52:36,888] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-01-31 17:52:36,912] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'ls /opt/***']
+[2022-01-31 17:52:37,001] {subprocess.py:85} INFO - Output:
+[2022-01-31 17:52:37,606] {subprocess.py:89} INFO - ***-worker.pid
+[2022-01-31 17:52:37,608] {subprocess.py:89} INFO - ***.cfg
+[2022-01-31 17:52:37,614] {subprocess.py:89} INFO - dags
+[2022-01-31 17:52:37,616] {subprocess.py:89} INFO - google_credentials.json
+[2022-01-31 17:52:37,618] {subprocess.py:89} INFO - logs
+[2022-01-31 17:52:37,621] {subprocess.py:89} INFO - output_2021-01.csv
+[2022-01-31 17:52:37,623] {subprocess.py:89} INFO - output_2021-02.csv
+[2022-01-31 17:52:37,626] {subprocess.py:89} INFO - output_2021-03.csv
+[2022-01-31 17:52:37,629] {subprocess.py:89} INFO - output_2021-04.csv
+[2022-01-31 17:52:37,632] {subprocess.py:89} INFO - output_2021-05.csv
+[2022-01-31 17:52:37,634] {subprocess.py:89} INFO - output_2021-06.csv
+[2022-01-31 17:52:37,636] {subprocess.py:89} INFO - output_2021-07.csv
+[2022-01-31 17:52:37,638] {subprocess.py:89} INFO - output_2021-08.csv
+[2022-01-31 17:52:37,640] {subprocess.py:89} INFO - output_2021-09.csv
+[2022-01-31 17:52:37,642] {subprocess.py:89} INFO - output_2021-10.csv
+[2022-01-31 17:52:37,644] {subprocess.py:89} INFO - output_2021-11.csv
+[2022-01-31 17:52:37,646] {subprocess.py:89} INFO - output_2021-12.csv
+[2022-01-31 17:52:37,657] {subprocess.py:89} INFO - output_2022-01.csv
+[2022-01-31 17:52:37,659] {subprocess.py:89} INFO - plugins
+[2022-01-31 17:52:37,664] {subprocess.py:89} INFO - requirements.txt
+[2022-01-31 17:52:37,666] {subprocess.py:89} INFO - webserver_config.py
+[2022-01-31 17:52:37,669] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-01-31 17:52:38,065] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=testing_dag, task_id=ingest, execution_date=20210902T060000, start_date=20220131T175234, end_date=20220131T175238
+[2022-01-31 17:52:38,582] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-31 17:52:39,309] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

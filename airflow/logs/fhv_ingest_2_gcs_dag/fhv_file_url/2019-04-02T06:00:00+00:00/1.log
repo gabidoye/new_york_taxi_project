@@ -1,0 +1,58 @@
+[2022-02-02 21:46:03,566] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_ingest_2_gcs_dag.fhv_file_url scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-02-02 21:46:03,625] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_ingest_2_gcs_dag.fhv_file_url scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-02-02 21:46:03,627] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:46:03,630] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-02 21:46:03,632] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:46:03,691] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): fhv_file_url> on 2019-04-02 06:00:00+00:00
+[2022-02-02 21:46:03,706] {standard_task_runner.py:52} INFO - Started process 1405 to run task
+[2022-02-02 21:46:03,725] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_ingest_2_gcs_dag', 'fhv_file_url', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '438', '--raw', '--subdir', 'DAGS_FOLDER/fhv_download_ingest_gcs.py', '--cfg-path', '/tmp/tmp0dimhqlc', '--error-file', '/tmp/tmp84od4zby']
+[2022-02-02 21:46:03,729] {standard_task_runner.py:77} INFO - Job 438: Subtask fhv_file_url
+[2022-02-02 21:46:04,225] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_ingest_2_gcs_dag.fhv_file_url scheduled__2019-04-02T06:00:00+00:00 [running]> on host ee5c3eebd1b1
+[2022-02-02 21:46:04,463] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-02 21:46:04,546] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_ingest_2_gcs_dag
+AIRFLOW_CTX_TASK_ID=fhv_file_url
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-02-02 21:46:04,553] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-02 21:46:04,557] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://nyc-tlc.s3.amazonaws.com/trip+data/fhv_tripdata_2019-04.csv > /opt/***/fhv_output_2019-04.csv']
+[2022-02-02 21:46:04,586] {subprocess.py:85} INFO - Output:
+[2022-02-02 21:46:12,772] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-02 21:46:13,058] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_ingest_2_gcs_dag, task_id=fhv_file_url, execution_date=20190402T060000, start_date=20220202T214603, end_date=20220202T214613
+[2022-02-02 21:46:13,339] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-02 21:46:13,731] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-02 21:52:10,386] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_ingest_2_gcs_dag.fhv_file_url scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-02-02 21:52:10,577] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_ingest_2_gcs_dag.fhv_file_url scheduled__2019-04-02T06:00:00+00:00 [queued]>
+[2022-02-02 21:52:10,579] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:52:10,590] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-02 21:52:10,592] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:52:10,701] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): fhv_file_url> on 2019-04-02 06:00:00+00:00
+[2022-02-02 21:52:10,719] {standard_task_runner.py:52} INFO - Started process 1810 to run task
+[2022-02-02 21:52:10,734] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_ingest_2_gcs_dag', 'fhv_file_url', 'scheduled__2019-04-02T06:00:00+00:00', '--job-id', '446', '--raw', '--subdir', 'DAGS_FOLDER/fhv_download_ingest_gcs.py', '--cfg-path', '/tmp/tmpb2tfjyag', '--error-file', '/tmp/tmp2b4_arsg']
+[2022-02-02 21:52:10,743] {standard_task_runner.py:77} INFO - Job 446: Subtask fhv_file_url
+[2022-02-02 21:52:11,279] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_ingest_2_gcs_dag.fhv_file_url scheduled__2019-04-02T06:00:00+00:00 [running]> on host ee5c3eebd1b1
+[2022-02-02 21:52:11,854] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-02 21:52:12,054] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_ingest_2_gcs_dag
+AIRFLOW_CTX_TASK_ID=fhv_file_url
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-02T06:00:00+00:00
+[2022-02-02 21:52:12,079] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-02 21:52:12,089] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://nyc-tlc.s3.amazonaws.com/trip+data/fhv_tripdata_2019-04.csv > /opt/***/fhv_output_2019-04.csv']
+[2022-02-02 21:52:12,165] {subprocess.py:85} INFO - Output:
+[2022-02-02 21:54:04,296] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-02 21:54:04,383] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_ingest_2_gcs_dag, task_id=fhv_file_url, execution_date=20190402T060000, start_date=20220202T215210, end_date=20220202T215404
+[2022-02-02 21:54:04,484] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-02 21:54:04,657] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

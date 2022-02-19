@@ -1,0 +1,723 @@
+[2022-02-03 00:00:21,712] {processor.py:163} INFO - Started process (PID=15105) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 00:00:21,716] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 00:00:21,718] {logging_mixin.py:109} INFO - [2022-02-03 00:00:21,718] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 00:00:24,421] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 00:00:24,454] {logging_mixin.py:109} INFO - [2022-02-03 00:00:24,453] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 00:00:24,506] {logging_mixin.py:109} INFO - [2022-02-03 00:00:24,506] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 00:00:24,526] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 2.821 seconds
+[2022-02-03 22:48:27,157] {processor.py:163} INFO - Started process (PID=185) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:48:27,176] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:48:27,181] {logging_mixin.py:109} INFO - [2022-02-03 22:48:27,180] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:48:47,361] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:48:47,497] {logging_mixin.py:109} INFO - [2022-02-03 22:48:47,496] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:48:47,813] {logging_mixin.py:109} INFO - [2022-02-03 22:48:47,812] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:48:47,935] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 20.804 seconds
+[2022-02-03 22:49:18,754] {processor.py:163} INFO - Started process (PID=259) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:49:18,765] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:49:18,771] {logging_mixin.py:109} INFO - [2022-02-03 22:49:18,770] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:49:28,055] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:49:28,113] {logging_mixin.py:109} INFO - [2022-02-03 22:49:28,112] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:49:28,191] {logging_mixin.py:109} INFO - [2022-02-03 22:49:28,191] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:49:28,411] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 9.674 seconds
+[2022-02-03 22:49:58,551] {processor.py:163} INFO - Started process (PID=322) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:49:58,557] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:49:58,561] {logging_mixin.py:109} INFO - [2022-02-03 22:49:58,560] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:50:02,808] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:50:03,011] {logging_mixin.py:109} INFO - [2022-02-03 22:50:03,010] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:50:03,101] {logging_mixin.py:109} INFO - [2022-02-03 22:50:03,100] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:50:03,148] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.607 seconds
+[2022-02-03 22:50:33,467] {processor.py:163} INFO - Started process (PID=371) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:50:33,472] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:50:33,475] {logging_mixin.py:109} INFO - [2022-02-03 22:50:33,475] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:50:37,301] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:50:37,481] {logging_mixin.py:109} INFO - [2022-02-03 22:50:37,479] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:50:37,555] {logging_mixin.py:109} INFO - [2022-02-03 22:50:37,555] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:50:37,583] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.124 seconds
+[2022-02-03 22:51:07,811] {processor.py:163} INFO - Started process (PID=437) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:51:07,815] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:51:07,817] {logging_mixin.py:109} INFO - [2022-02-03 22:51:07,817] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:51:10,660] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:51:10,802] {logging_mixin.py:109} INFO - [2022-02-03 22:51:10,801] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:51:10,861] {logging_mixin.py:109} INFO - [2022-02-03 22:51:10,860] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:51:10,883] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.078 seconds
+[2022-02-03 22:51:41,716] {processor.py:163} INFO - Started process (PID=500) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:51:41,721] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:51:41,725] {logging_mixin.py:109} INFO - [2022-02-03 22:51:41,724] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:51:45,956] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:51:46,139] {logging_mixin.py:109} INFO - [2022-02-03 22:51:46,138] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:51:46,233] {logging_mixin.py:109} INFO - [2022-02-03 22:51:46,233] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:51:46,275] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.566 seconds
+[2022-02-03 22:52:16,991] {processor.py:163} INFO - Started process (PID=564) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:52:16,995] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:52:16,999] {logging_mixin.py:109} INFO - [2022-02-03 22:52:16,998] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:52:20,850] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:52:20,919] {logging_mixin.py:109} INFO - [2022-02-03 22:52:20,918] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:52:20,993] {logging_mixin.py:109} INFO - [2022-02-03 22:52:20,992] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:52:21,042] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.059 seconds
+[2022-02-03 22:52:51,648] {processor.py:163} INFO - Started process (PID=611) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:52:51,652] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:52:51,654] {logging_mixin.py:109} INFO - [2022-02-03 22:52:51,654] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:52:54,747] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:52:54,797] {logging_mixin.py:109} INFO - [2022-02-03 22:52:54,795] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:52:54,873] {logging_mixin.py:109} INFO - [2022-02-03 22:52:54,872] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:52:54,901] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.260 seconds
+[2022-02-03 22:53:25,883] {processor.py:163} INFO - Started process (PID=675) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:53:25,890] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:53:25,895] {logging_mixin.py:109} INFO - [2022-02-03 22:53:25,894] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:53:28,960] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:53:28,998] {logging_mixin.py:109} INFO - [2022-02-03 22:53:28,997] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:53:29,059] {logging_mixin.py:109} INFO - [2022-02-03 22:53:29,058] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:53:29,082] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.207 seconds
+[2022-02-03 22:53:59,496] {processor.py:163} INFO - Started process (PID=741) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:53:59,502] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:53:59,505] {logging_mixin.py:109} INFO - [2022-02-03 22:53:59,505] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:54:03,874] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:54:03,957] {logging_mixin.py:109} INFO - [2022-02-03 22:54:03,955] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:54:04,079] {logging_mixin.py:109} INFO - [2022-02-03 22:54:04,078] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:54:04,105] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.618 seconds
+[2022-02-03 22:54:34,593] {processor.py:163} INFO - Started process (PID=789) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:54:34,600] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:54:34,607] {logging_mixin.py:109} INFO - [2022-02-03 22:54:34,604] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:54:38,262] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:54:38,307] {logging_mixin.py:109} INFO - [2022-02-03 22:54:38,305] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:54:38,376] {logging_mixin.py:109} INFO - [2022-02-03 22:54:38,376] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:54:38,404] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.820 seconds
+[2022-02-03 22:55:08,716] {processor.py:163} INFO - Started process (PID=857) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:55:08,721] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:55:08,725] {logging_mixin.py:109} INFO - [2022-02-03 22:55:08,724] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:55:11,763] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:55:11,798] {logging_mixin.py:109} INFO - [2022-02-03 22:55:11,797] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:55:11,856] {logging_mixin.py:109} INFO - [2022-02-03 22:55:11,856] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:55:11,878] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.171 seconds
+[2022-02-03 22:55:42,203] {processor.py:163} INFO - Started process (PID=921) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:55:42,210] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:55:42,215] {logging_mixin.py:109} INFO - [2022-02-03 22:55:42,214] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:55:46,602] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:55:46,645] {logging_mixin.py:109} INFO - [2022-02-03 22:55:46,644] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:55:46,717] {logging_mixin.py:109} INFO - [2022-02-03 22:55:46,717] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:55:46,741] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.545 seconds
+[2022-02-03 22:56:17,296] {processor.py:163} INFO - Started process (PID=986) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:56:17,303] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:56:17,307] {logging_mixin.py:109} INFO - [2022-02-03 22:56:17,307] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:56:21,375] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:56:21,422] {logging_mixin.py:109} INFO - [2022-02-03 22:56:21,420] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:56:21,494] {logging_mixin.py:109} INFO - [2022-02-03 22:56:21,494] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:56:21,521] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.234 seconds
+[2022-02-03 22:56:52,182] {processor.py:163} INFO - Started process (PID=1032) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:56:52,187] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:56:52,189] {logging_mixin.py:109} INFO - [2022-02-03 22:56:52,189] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:56:55,442] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:56:55,491] {logging_mixin.py:109} INFO - [2022-02-03 22:56:55,489] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:56:55,568] {logging_mixin.py:109} INFO - [2022-02-03 22:56:55,567] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:56:55,598] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.421 seconds
+[2022-02-03 22:57:25,916] {processor.py:163} INFO - Started process (PID=1094) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:57:25,921] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:57:25,924] {logging_mixin.py:109} INFO - [2022-02-03 22:57:25,924] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:57:28,901] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:57:28,942] {logging_mixin.py:109} INFO - [2022-02-03 22:57:28,941] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:57:29,006] {logging_mixin.py:109} INFO - [2022-02-03 22:57:29,005] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:57:29,029] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.120 seconds
+[2022-02-03 22:57:59,868] {processor.py:163} INFO - Started process (PID=1157) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:57:59,873] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:57:59,876] {logging_mixin.py:109} INFO - [2022-02-03 22:57:59,876] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:58:03,958] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:58:04,019] {logging_mixin.py:109} INFO - [2022-02-03 22:58:04,017] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:58:04,102] {logging_mixin.py:109} INFO - [2022-02-03 22:58:04,102] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:58:04,141] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.281 seconds
+[2022-02-03 22:58:34,755] {processor.py:163} INFO - Started process (PID=1205) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:58:34,760] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:58:34,765] {logging_mixin.py:109} INFO - [2022-02-03 22:58:34,764] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:58:38,882] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:58:38,937] {logging_mixin.py:109} INFO - [2022-02-03 22:58:38,936] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:58:39,010] {logging_mixin.py:109} INFO - [2022-02-03 22:58:39,009] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:58:39,036] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.291 seconds
+[2022-02-03 22:59:09,269] {processor.py:163} INFO - Started process (PID=1267) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:59:09,274] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:59:09,276] {logging_mixin.py:109} INFO - [2022-02-03 22:59:09,276] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:59:12,219] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:59:12,260] {logging_mixin.py:109} INFO - [2022-02-03 22:59:12,259] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:59:12,327] {logging_mixin.py:109} INFO - [2022-02-03 22:59:12,326] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:59:12,354] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.092 seconds
+[2022-02-03 22:59:42,668] {processor.py:163} INFO - Started process (PID=1330) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:59:42,672] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 22:59:42,675] {logging_mixin.py:109} INFO - [2022-02-03 22:59:42,675] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:59:46,860] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 22:59:46,916] {logging_mixin.py:109} INFO - [2022-02-03 22:59:46,915] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 22:59:47,016] {logging_mixin.py:109} INFO - [2022-02-03 22:59:47,015] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 22:59:47,044] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.384 seconds
+[2022-02-03 23:00:17,893] {processor.py:163} INFO - Started process (PID=1393) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:00:17,897] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:00:17,901] {logging_mixin.py:109} INFO - [2022-02-03 23:00:17,900] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:00:21,947] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:00:21,992] {logging_mixin.py:109} INFO - [2022-02-03 23:00:21,991] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:00:22,135] {logging_mixin.py:109} INFO - [2022-02-03 23:00:22,135] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:00:22,204] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.320 seconds
+[2022-02-03 23:00:52,349] {processor.py:163} INFO - Started process (PID=1440) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:00:52,354] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:00:52,357] {logging_mixin.py:109} INFO - [2022-02-03 23:00:52,357] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:00:55,610] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:00:55,656] {logging_mixin.py:109} INFO - [2022-02-03 23:00:55,655] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:00:55,732] {logging_mixin.py:109} INFO - [2022-02-03 23:00:55,731] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:00:55,770] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.432 seconds
+[2022-02-03 23:01:26,337] {processor.py:163} INFO - Started process (PID=1508) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:01:26,341] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:01:26,344] {logging_mixin.py:109} INFO - [2022-02-03 23:01:26,344] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:01:29,590] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:01:29,629] {logging_mixin.py:109} INFO - [2022-02-03 23:01:29,628] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:01:29,692] {logging_mixin.py:109} INFO - [2022-02-03 23:01:29,692] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:01:29,714] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.384 seconds
+[2022-02-03 23:02:00,038] {processor.py:163} INFO - Started process (PID=1575) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:02:00,042] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:02:00,045] {logging_mixin.py:109} INFO - [2022-02-03 23:02:00,045] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:02:04,386] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:02:04,446] {logging_mixin.py:109} INFO - [2022-02-03 23:02:04,445] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:02:04,530] {logging_mixin.py:109} INFO - [2022-02-03 23:02:04,529] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:02:04,559] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.529 seconds
+[2022-02-03 23:02:35,037] {processor.py:163} INFO - Started process (PID=1637) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:02:35,042] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:02:35,045] {logging_mixin.py:109} INFO - [2022-02-03 23:02:35,045] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:02:38,866] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:02:38,910] {logging_mixin.py:109} INFO - [2022-02-03 23:02:38,908] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:02:38,982] {logging_mixin.py:109} INFO - [2022-02-03 23:02:38,982] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:02:39,011] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.982 seconds
+[2022-02-03 23:03:09,608] {processor.py:163} INFO - Started process (PID=1693) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:03:09,613] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:03:09,616] {logging_mixin.py:109} INFO - [2022-02-03 23:03:09,616] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:03:12,506] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:03:12,541] {logging_mixin.py:109} INFO - [2022-02-03 23:03:12,540] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:03:12,602] {logging_mixin.py:109} INFO - [2022-02-03 23:03:12,602] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:03:12,626] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.027 seconds
+[2022-02-03 23:03:43,039] {processor.py:163} INFO - Started process (PID=1756) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:03:43,044] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:03:43,048] {logging_mixin.py:109} INFO - [2022-02-03 23:03:43,047] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:03:47,084] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:03:47,126] {logging_mixin.py:109} INFO - [2022-02-03 23:03:47,125] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:03:47,191] {logging_mixin.py:109} INFO - [2022-02-03 23:03:47,191] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:03:47,218] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.187 seconds
+[2022-02-03 23:04:17,493] {processor.py:163} INFO - Started process (PID=1821) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:04:17,498] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:04:17,501] {logging_mixin.py:109} INFO - [2022-02-03 23:04:17,500] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:04:21,404] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:04:21,451] {logging_mixin.py:109} INFO - [2022-02-03 23:04:21,450] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:04:21,593] {logging_mixin.py:109} INFO - [2022-02-03 23:04:21,593] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:04:21,781] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.295 seconds
+[2022-02-03 23:04:52,266] {processor.py:163} INFO - Started process (PID=1872) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:04:52,279] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:04:52,283] {logging_mixin.py:109} INFO - [2022-02-03 23:04:52,283] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:04:55,881] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:04:55,928] {logging_mixin.py:109} INFO - [2022-02-03 23:04:55,927] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:04:56,006] {logging_mixin.py:109} INFO - [2022-02-03 23:04:56,005] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:04:56,171] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.916 seconds
+[2022-02-03 23:05:27,045] {processor.py:163} INFO - Started process (PID=1939) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:05:27,050] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:05:27,053] {logging_mixin.py:109} INFO - [2022-02-03 23:05:27,052] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:05:30,297] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:05:30,333] {logging_mixin.py:109} INFO - [2022-02-03 23:05:30,332] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:05:30,391] {logging_mixin.py:109} INFO - [2022-02-03 23:05:30,391] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:05:30,522] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.486 seconds
+[2022-02-03 23:06:00,777] {processor.py:163} INFO - Started process (PID=2002) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:06:00,783] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:06:00,788] {logging_mixin.py:109} INFO - [2022-02-03 23:06:00,787] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:06:05,458] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:06:05,520] {logging_mixin.py:109} INFO - [2022-02-03 23:06:05,519] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:06:05,681] {logging_mixin.py:109} INFO - [2022-02-03 23:06:05,680] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:06:05,732] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.964 seconds
+[2022-02-03 23:06:36,514] {processor.py:163} INFO - Started process (PID=2070) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:06:36,518] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:06:36,521] {logging_mixin.py:109} INFO - [2022-02-03 23:06:36,521] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:06:40,742] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:06:40,787] {logging_mixin.py:109} INFO - [2022-02-03 23:06:40,785] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:06:40,864] {logging_mixin.py:109} INFO - [2022-02-03 23:06:40,863] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:06:40,890] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.384 seconds
+[2022-02-03 23:07:11,692] {processor.py:163} INFO - Started process (PID=2122) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:07:11,696] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:07:11,699] {logging_mixin.py:109} INFO - [2022-02-03 23:07:11,698] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:07:14,589] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:07:14,628] {logging_mixin.py:109} INFO - [2022-02-03 23:07:14,627] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:07:14,688] {logging_mixin.py:109} INFO - [2022-02-03 23:07:14,687] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:07:14,709] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.024 seconds
+[2022-02-03 23:07:44,806] {processor.py:163} INFO - Started process (PID=2187) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:07:44,812] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:07:44,816] {logging_mixin.py:109} INFO - [2022-02-03 23:07:44,815] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:07:48,434] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:07:48,479] {logging_mixin.py:109} INFO - [2022-02-03 23:07:48,478] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:07:48,546] {logging_mixin.py:109} INFO - [2022-02-03 23:07:48,545] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:07:48,570] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.773 seconds
+[2022-02-03 23:08:19,216] {processor.py:163} INFO - Started process (PID=2255) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:08:19,221] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:08:19,225] {logging_mixin.py:109} INFO - [2022-02-03 23:08:19,224] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:08:23,435] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:08:23,486] {logging_mixin.py:109} INFO - [2022-02-03 23:08:23,484] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:08:23,560] {logging_mixin.py:109} INFO - [2022-02-03 23:08:23,559] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:08:23,587] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.379 seconds
+[2022-02-03 23:08:53,754] {processor.py:163} INFO - Started process (PID=2302) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:08:53,760] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:08:53,763] {logging_mixin.py:109} INFO - [2022-02-03 23:08:53,763] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:08:57,434] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:08:57,494] {logging_mixin.py:109} INFO - [2022-02-03 23:08:57,491] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:08:57,588] {logging_mixin.py:109} INFO - [2022-02-03 23:08:57,587] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:08:57,694] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.948 seconds
+[2022-02-03 23:09:28,234] {processor.py:163} INFO - Started process (PID=2365) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:09:28,239] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:09:28,242] {logging_mixin.py:109} INFO - [2022-02-03 23:09:28,242] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:09:31,409] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:09:31,447] {logging_mixin.py:109} INFO - [2022-02-03 23:09:31,446] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:09:31,520] {logging_mixin.py:109} INFO - [2022-02-03 23:09:31,520] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:09:31,547] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.321 seconds
+[2022-02-03 23:10:01,685] {processor.py:163} INFO - Started process (PID=2436) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:10:01,689] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:10:01,693] {logging_mixin.py:109} INFO - [2022-02-03 23:10:01,693] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:10:05,930] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:10:05,979] {logging_mixin.py:109} INFO - [2022-02-03 23:10:05,977] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:10:06,073] {logging_mixin.py:109} INFO - [2022-02-03 23:10:06,072] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:10:06,104] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.427 seconds
+[2022-02-03 23:10:36,658] {processor.py:163} INFO - Started process (PID=2504) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:10:36,662] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:10:36,665] {logging_mixin.py:109} INFO - [2022-02-03 23:10:36,665] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:10:40,875] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:10:40,921] {logging_mixin.py:109} INFO - [2022-02-03 23:10:40,920] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:10:40,994] {logging_mixin.py:109} INFO - [2022-02-03 23:10:40,993] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:10:41,023] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.374 seconds
+[2022-02-03 23:11:11,593] {processor.py:163} INFO - Started process (PID=2554) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:11:11,599] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:11:11,602] {logging_mixin.py:109} INFO - [2022-02-03 23:11:11,601] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:11:14,760] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:11:14,795] {logging_mixin.py:109} INFO - [2022-02-03 23:11:14,794] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:11:14,856] {logging_mixin.py:109} INFO - [2022-02-03 23:11:14,855] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:11:14,879] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.295 seconds
+[2022-02-03 23:11:45,368] {processor.py:163} INFO - Started process (PID=2621) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:11:45,373] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:11:45,377] {logging_mixin.py:109} INFO - [2022-02-03 23:11:45,377] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:11:48,792] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:11:48,829] {logging_mixin.py:109} INFO - [2022-02-03 23:11:48,828] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:11:48,890] {logging_mixin.py:109} INFO - [2022-02-03 23:11:48,890] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:11:48,913] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.554 seconds
+[2022-02-03 23:12:19,201] {processor.py:163} INFO - Started process (PID=2683) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:12:19,208] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:12:19,211] {logging_mixin.py:109} INFO - [2022-02-03 23:12:19,211] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:12:23,411] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:12:23,459] {logging_mixin.py:109} INFO - [2022-02-03 23:12:23,458] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:12:23,534] {logging_mixin.py:109} INFO - [2022-02-03 23:12:23,534] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:12:23,572] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.378 seconds
+[2022-02-03 23:12:54,181] {processor.py:163} INFO - Started process (PID=2732) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:12:54,185] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:12:54,188] {logging_mixin.py:109} INFO - [2022-02-03 23:12:54,187] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:12:57,856] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:12:57,901] {logging_mixin.py:109} INFO - [2022-02-03 23:12:57,900] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:12:57,972] {logging_mixin.py:109} INFO - [2022-02-03 23:12:57,972] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:12:58,000] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.825 seconds
+[2022-02-03 23:13:28,489] {processor.py:163} INFO - Started process (PID=2798) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:13:28,493] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:13:28,495] {logging_mixin.py:109} INFO - [2022-02-03 23:13:28,495] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:13:31,449] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:13:31,485] {logging_mixin.py:109} INFO - [2022-02-03 23:13:31,484] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:13:31,544] {logging_mixin.py:109} INFO - [2022-02-03 23:13:31,543] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:13:31,567] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.084 seconds
+[2022-02-03 23:14:02,271] {processor.py:163} INFO - Started process (PID=2863) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:14:02,276] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:14:02,279] {logging_mixin.py:109} INFO - [2022-02-03 23:14:02,279] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:14:06,522] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:14:06,563] {logging_mixin.py:109} INFO - [2022-02-03 23:14:06,561] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:14:06,632] {logging_mixin.py:109} INFO - [2022-02-03 23:14:06,631] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:14:06,659] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.395 seconds
+[2022-02-03 23:14:37,099] {processor.py:163} INFO - Started process (PID=2926) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:14:37,104] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:14:37,107] {logging_mixin.py:109} INFO - [2022-02-03 23:14:37,107] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:14:41,248] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:14:41,291] {logging_mixin.py:109} INFO - [2022-02-03 23:14:41,290] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:14:41,365] {logging_mixin.py:109} INFO - [2022-02-03 23:14:41,364] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:14:41,389] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.301 seconds
+[2022-02-03 23:15:11,996] {processor.py:163} INFO - Started process (PID=2973) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:15:12,002] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:15:12,005] {logging_mixin.py:109} INFO - [2022-02-03 23:15:12,004] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:15:14,847] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:15:14,900] {logging_mixin.py:109} INFO - [2022-02-03 23:15:14,899] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:15:14,962] {logging_mixin.py:109} INFO - [2022-02-03 23:15:14,961] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:15:14,982] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 2.994 seconds
+[2022-02-03 23:15:45,197] {processor.py:163} INFO - Started process (PID=3042) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:15:45,211] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:15:45,215] {logging_mixin.py:109} INFO - [2022-02-03 23:15:45,215] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:15:48,841] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:15:48,884] {logging_mixin.py:109} INFO - [2022-02-03 23:15:48,883] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:15:48,957] {logging_mixin.py:109} INFO - [2022-02-03 23:15:48,957] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:15:48,983] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.802 seconds
+[2022-02-03 23:16:19,112] {processor.py:163} INFO - Started process (PID=3106) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:16:19,117] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:16:19,120] {logging_mixin.py:109} INFO - [2022-02-03 23:16:19,120] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:16:23,439] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:16:23,494] {logging_mixin.py:109} INFO - [2022-02-03 23:16:23,492] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:16:23,572] {logging_mixin.py:109} INFO - [2022-02-03 23:16:23,572] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:16:23,600] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.494 seconds
+[2022-02-03 23:16:54,542] {processor.py:163} INFO - Started process (PID=3154) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:16:54,547] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:16:54,552] {logging_mixin.py:109} INFO - [2022-02-03 23:16:54,551] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:16:58,285] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:16:58,331] {logging_mixin.py:109} INFO - [2022-02-03 23:16:58,329] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:16:58,419] {logging_mixin.py:109} INFO - [2022-02-03 23:16:58,419] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:16:58,446] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.912 seconds
+[2022-02-03 23:17:28,663] {processor.py:163} INFO - Started process (PID=3221) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:17:28,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:17:28,669] {logging_mixin.py:109} INFO - [2022-02-03 23:17:28,669] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:17:31,520] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:17:31,565] {logging_mixin.py:109} INFO - [2022-02-03 23:17:31,563] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:17:31,623] {logging_mixin.py:109} INFO - [2022-02-03 23:17:31,622] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:17:31,645] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 2.988 seconds
+[2022-02-03 23:18:01,764] {processor.py:163} INFO - Started process (PID=3286) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:18:01,769] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:18:01,772] {logging_mixin.py:109} INFO - [2022-02-03 23:18:01,771] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:18:05,941] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:18:05,987] {logging_mixin.py:109} INFO - [2022-02-03 23:18:05,986] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:18:06,107] {logging_mixin.py:109} INFO - [2022-02-03 23:18:06,106] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:18:06,157] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.401 seconds
+[2022-02-03 23:18:36,849] {processor.py:163} INFO - Started process (PID=3352) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:18:36,854] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:18:36,857] {logging_mixin.py:109} INFO - [2022-02-03 23:18:36,857] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:18:40,925] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:18:40,973] {logging_mixin.py:109} INFO - [2022-02-03 23:18:40,972] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:18:41,062] {logging_mixin.py:109} INFO - [2022-02-03 23:18:41,062] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:18:41,088] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.246 seconds
+[2022-02-03 23:19:11,348] {processor.py:163} INFO - Started process (PID=3401) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:19:11,353] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:19:11,355] {logging_mixin.py:109} INFO - [2022-02-03 23:19:11,355] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:19:14,445] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:19:14,478] {logging_mixin.py:109} INFO - [2022-02-03 23:19:14,477] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:19:14,529] {logging_mixin.py:109} INFO - [2022-02-03 23:19:14,528] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:19:14,547] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.207 seconds
+[2022-02-03 23:19:45,013] {processor.py:163} INFO - Started process (PID=3468) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:19:45,017] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:19:45,021] {logging_mixin.py:109} INFO - [2022-02-03 23:19:45,021] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:19:48,925] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:19:48,967] {logging_mixin.py:109} INFO - [2022-02-03 23:19:48,966] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:19:49,039] {logging_mixin.py:109} INFO - [2022-02-03 23:19:49,039] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:19:49,063] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.063 seconds
+[2022-02-03 23:20:19,633] {processor.py:163} INFO - Started process (PID=3533) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:20:19,640] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:20:19,645] {logging_mixin.py:109} INFO - [2022-02-03 23:20:19,644] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:20:23,711] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:20:23,807] {logging_mixin.py:109} INFO - [2022-02-03 23:20:23,805] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:20:23,971] {logging_mixin.py:109} INFO - [2022-02-03 23:20:23,971] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:20:24,010] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.392 seconds
+[2022-02-03 23:20:54,564] {processor.py:163} INFO - Started process (PID=3581) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:20:54,569] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:20:54,573] {logging_mixin.py:109} INFO - [2022-02-03 23:20:54,572] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:20:58,230] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:20:58,273] {logging_mixin.py:109} INFO - [2022-02-03 23:20:58,271] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:20:58,351] {logging_mixin.py:109} INFO - [2022-02-03 23:20:58,350] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:20:58,378] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.818 seconds
+[2022-02-03 23:21:28,643] {processor.py:163} INFO - Started process (PID=3645) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:21:28,648] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:21:28,651] {logging_mixin.py:109} INFO - [2022-02-03 23:21:28,651] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:21:31,559] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:21:31,593] {logging_mixin.py:109} INFO - [2022-02-03 23:21:31,592] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:21:31,658] {logging_mixin.py:109} INFO - [2022-02-03 23:21:31,657] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:21:31,679] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.047 seconds
+[2022-02-03 23:22:02,480] {processor.py:163} INFO - Started process (PID=3708) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:22:02,487] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:22:02,491] {logging_mixin.py:109} INFO - [2022-02-03 23:22:02,491] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:22:06,699] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:22:06,760] {logging_mixin.py:109} INFO - [2022-02-03 23:22:06,759] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:22:06,845] {logging_mixin.py:109} INFO - [2022-02-03 23:22:06,844] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:22:06,875] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.403 seconds
+[2022-02-03 23:22:37,474] {processor.py:163} INFO - Started process (PID=3774) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:22:37,480] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:22:37,483] {logging_mixin.py:109} INFO - [2022-02-03 23:22:37,483] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:22:41,587] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:22:41,633] {logging_mixin.py:109} INFO - [2022-02-03 23:22:41,632] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:22:41,710] {logging_mixin.py:109} INFO - [2022-02-03 23:22:41,709] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:22:41,735] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.269 seconds
+[2022-02-03 23:23:12,588] {processor.py:163} INFO - Started process (PID=3822) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:23:12,593] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:23:12,595] {logging_mixin.py:109} INFO - [2022-02-03 23:23:12,595] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:23:15,384] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:23:15,426] {logging_mixin.py:109} INFO - [2022-02-03 23:23:15,425] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:23:15,502] {logging_mixin.py:109} INFO - [2022-02-03 23:23:15,501] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:23:15,525] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 2.944 seconds
+[2022-02-03 23:23:46,018] {processor.py:163} INFO - Started process (PID=3888) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:23:46,024] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:23:46,027] {logging_mixin.py:109} INFO - [2022-02-03 23:23:46,027] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:23:49,414] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:23:49,452] {logging_mixin.py:109} INFO - [2022-02-03 23:23:49,451] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:23:49,507] {logging_mixin.py:109} INFO - [2022-02-03 23:23:49,507] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:23:49,527] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.519 seconds
+[2022-02-03 23:24:19,977] {processor.py:163} INFO - Started process (PID=3952) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:24:19,982] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:24:19,985] {logging_mixin.py:109} INFO - [2022-02-03 23:24:19,985] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:24:24,220] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:24:24,264] {logging_mixin.py:109} INFO - [2022-02-03 23:24:24,263] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:24:24,333] {logging_mixin.py:109} INFO - [2022-02-03 23:24:24,333] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:24:24,359] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.390 seconds
+[2022-02-03 23:24:54,650] {processor.py:163} INFO - Started process (PID=4001) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:24:54,655] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:24:54,658] {logging_mixin.py:109} INFO - [2022-02-03 23:24:54,658] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:24:58,261] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:24:58,303] {logging_mixin.py:109} INFO - [2022-02-03 23:24:58,302] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:24:58,375] {logging_mixin.py:109} INFO - [2022-02-03 23:24:58,374] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:24:58,407] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.762 seconds
+[2022-02-03 23:25:28,906] {processor.py:163} INFO - Started process (PID=4070) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:25:28,911] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:25:28,913] {logging_mixin.py:109} INFO - [2022-02-03 23:25:28,913] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:25:31,685] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:25:31,717] {logging_mixin.py:109} INFO - [2022-02-03 23:25:31,716] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:25:31,772] {logging_mixin.py:109} INFO - [2022-02-03 23:25:31,772] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:25:31,792] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 2.892 seconds
+[2022-02-03 23:26:01,884] {processor.py:163} INFO - Started process (PID=4129) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:26:01,889] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:26:01,893] {logging_mixin.py:109} INFO - [2022-02-03 23:26:01,892] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:26:06,138] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:26:06,183] {logging_mixin.py:109} INFO - [2022-02-03 23:26:06,181] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:26:06,253] {logging_mixin.py:109} INFO - [2022-02-03 23:26:06,253] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:26:06,281] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.404 seconds
+[2022-02-03 23:26:36,982] {processor.py:163} INFO - Started process (PID=4194) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:26:36,990] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:26:37,001] {logging_mixin.py:109} INFO - [2022-02-03 23:26:37,001] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:26:40,819] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:26:40,864] {logging_mixin.py:109} INFO - [2022-02-03 23:26:40,863] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:26:40,940] {logging_mixin.py:109} INFO - [2022-02-03 23:26:40,940] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:26:40,969] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.993 seconds
+[2022-02-03 23:27:11,607] {processor.py:163} INFO - Started process (PID=4240) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:27:11,617] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:27:11,628] {logging_mixin.py:109} INFO - [2022-02-03 23:27:11,627] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:27:14,519] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:27:14,561] {logging_mixin.py:109} INFO - [2022-02-03 23:27:14,560] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:27:14,615] {logging_mixin.py:109} INFO - [2022-02-03 23:27:14,614] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:27:14,634] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.038 seconds
+[2022-02-03 23:27:45,012] {processor.py:163} INFO - Started process (PID=4306) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:27:45,019] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:27:45,023] {logging_mixin.py:109} INFO - [2022-02-03 23:27:45,022] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:27:48,710] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:27:48,750] {logging_mixin.py:109} INFO - [2022-02-03 23:27:48,749] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:27:48,806] {logging_mixin.py:109} INFO - [2022-02-03 23:27:48,805] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:27:48,829] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.826 seconds
+[2022-02-03 23:28:18,927] {processor.py:163} INFO - Started process (PID=4375) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:28:18,934] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:28:18,939] {logging_mixin.py:109} INFO - [2022-02-03 23:28:18,939] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:28:22,947] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:28:22,991] {logging_mixin.py:109} INFO - [2022-02-03 23:28:22,990] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:28:23,073] {logging_mixin.py:109} INFO - [2022-02-03 23:28:23,072] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:28:23,113] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.193 seconds
+[2022-02-03 23:28:53,802] {processor.py:163} INFO - Started process (PID=4424) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:28:53,806] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:28:53,809] {logging_mixin.py:109} INFO - [2022-02-03 23:28:53,808] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:28:56,842] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:28:56,888] {logging_mixin.py:109} INFO - [2022-02-03 23:28:56,886] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:28:56,960] {logging_mixin.py:109} INFO - [2022-02-03 23:28:56,959] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:28:56,986] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.190 seconds
+[2022-02-03 23:29:27,242] {processor.py:163} INFO - Started process (PID=4489) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:29:27,246] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:29:27,249] {logging_mixin.py:109} INFO - [2022-02-03 23:29:27,249] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:29:30,343] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:29:30,381] {logging_mixin.py:109} INFO - [2022-02-03 23:29:30,379] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:29:30,437] {logging_mixin.py:109} INFO - [2022-02-03 23:29:30,436] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:29:30,457] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.222 seconds
+[2022-02-03 23:30:00,600] {processor.py:163} INFO - Started process (PID=4555) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:30:00,613] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:30:00,623] {logging_mixin.py:109} INFO - [2022-02-03 23:30:00,623] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:30:04,382] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:30:04,433] {logging_mixin.py:109} INFO - [2022-02-03 23:30:04,432] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:30:04,509] {logging_mixin.py:109} INFO - [2022-02-03 23:30:04,509] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:30:04,542] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.957 seconds
+[2022-02-03 23:30:35,069] {processor.py:163} INFO - Started process (PID=4602) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:30:35,074] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:30:35,077] {logging_mixin.py:109} INFO - [2022-02-03 23:30:35,077] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:30:38,593] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:30:38,641] {logging_mixin.py:109} INFO - [2022-02-03 23:30:38,640] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:30:38,719] {logging_mixin.py:109} INFO - [2022-02-03 23:30:38,718] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:30:38,758] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.696 seconds
+[2022-02-03 23:31:09,273] {processor.py:163} INFO - Started process (PID=4671) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:31:09,278] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:31:09,281] {logging_mixin.py:109} INFO - [2022-02-03 23:31:09,281] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:31:12,244] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:31:12,288] {logging_mixin.py:109} INFO - [2022-02-03 23:31:12,287] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:31:12,353] {logging_mixin.py:109} INFO - [2022-02-03 23:31:12,352] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:31:12,376] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.110 seconds
+[2022-02-03 23:31:42,500] {processor.py:163} INFO - Started process (PID=4736) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:31:42,505] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:31:42,508] {logging_mixin.py:109} INFO - [2022-02-03 23:31:42,508] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:31:46,593] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:31:46,695] {logging_mixin.py:109} INFO - [2022-02-03 23:31:46,694] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:31:46,824] {logging_mixin.py:109} INFO - [2022-02-03 23:31:46,823] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:31:46,852] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.361 seconds
+[2022-02-03 23:32:17,290] {processor.py:163} INFO - Started process (PID=4801) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:32:17,295] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:32:17,298] {logging_mixin.py:109} INFO - [2022-02-03 23:32:17,298] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:32:21,157] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:32:21,202] {logging_mixin.py:109} INFO - [2022-02-03 23:32:21,201] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:32:21,286] {logging_mixin.py:109} INFO - [2022-02-03 23:32:21,285] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:32:21,318] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.036 seconds
+[2022-02-03 23:32:51,876] {processor.py:163} INFO - Started process (PID=4851) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:32:51,883] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:32:51,885] {logging_mixin.py:109} INFO - [2022-02-03 23:32:51,885] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:32:54,699] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:32:54,734] {logging_mixin.py:109} INFO - [2022-02-03 23:32:54,733] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:32:54,797] {logging_mixin.py:109} INFO - [2022-02-03 23:32:54,797] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:32:54,839] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 2.973 seconds
+[2022-02-03 23:33:25,199] {processor.py:163} INFO - Started process (PID=4915) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:33:25,205] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:33:25,209] {logging_mixin.py:109} INFO - [2022-02-03 23:33:25,208] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:33:28,636] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:33:28,676] {logging_mixin.py:109} INFO - [2022-02-03 23:33:28,675] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:33:28,739] {logging_mixin.py:109} INFO - [2022-02-03 23:33:28,739] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:33:28,764] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.583 seconds
+[2022-02-03 23:33:59,154] {processor.py:163} INFO - Started process (PID=4978) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:33:59,157] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:33:59,161] {logging_mixin.py:109} INFO - [2022-02-03 23:33:59,161] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:34:02,902] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:34:02,953] {logging_mixin.py:109} INFO - [2022-02-03 23:34:02,952] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:34:03,024] {logging_mixin.py:109} INFO - [2022-02-03 23:34:03,024] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:34:03,076] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.930 seconds
+[2022-02-03 23:34:33,180] {processor.py:163} INFO - Started process (PID=5024) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:34:33,186] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:34:33,190] {logging_mixin.py:109} INFO - [2022-02-03 23:34:33,189] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:34:36,076] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:34:36,122] {logging_mixin.py:109} INFO - [2022-02-03 23:34:36,121] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:34:36,280] {logging_mixin.py:109} INFO - [2022-02-03 23:34:36,280] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:34:36,308] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.137 seconds
+[2022-02-03 23:35:06,714] {processor.py:163} INFO - Started process (PID=5093) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:35:06,719] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:35:06,722] {logging_mixin.py:109} INFO - [2022-02-03 23:35:06,722] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:35:09,789] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:35:09,828] {logging_mixin.py:109} INFO - [2022-02-03 23:35:09,827] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:35:09,898] {logging_mixin.py:109} INFO - [2022-02-03 23:35:09,897] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:35:09,928] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.221 seconds
+[2022-02-03 23:35:40,237] {processor.py:163} INFO - Started process (PID=5154) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:35:40,242] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:35:40,245] {logging_mixin.py:109} INFO - [2022-02-03 23:35:40,245] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:35:43,993] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:35:44,040] {logging_mixin.py:109} INFO - [2022-02-03 23:35:44,038] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:35:44,114] {logging_mixin.py:109} INFO - [2022-02-03 23:35:44,113] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:35:44,143] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.914 seconds
+[2022-02-03 23:36:14,487] {processor.py:163} INFO - Started process (PID=5202) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:36:14,493] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:36:14,495] {logging_mixin.py:109} INFO - [2022-02-03 23:36:14,495] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:36:17,723] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:36:17,769] {logging_mixin.py:109} INFO - [2022-02-03 23:36:17,768] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:36:17,843] {logging_mixin.py:109} INFO - [2022-02-03 23:36:17,843] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:36:17,883] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.405 seconds
+[2022-02-03 23:36:48,120] {processor.py:163} INFO - Started process (PID=5263) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:36:48,125] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:36:48,128] {logging_mixin.py:109} INFO - [2022-02-03 23:36:48,127] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:36:50,929] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:36:50,966] {logging_mixin.py:109} INFO - [2022-02-03 23:36:50,964] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:36:51,026] {logging_mixin.py:109} INFO - [2022-02-03 23:36:51,026] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:36:51,051] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 2.939 seconds
+[2022-02-03 23:37:21,337] {processor.py:163} INFO - Started process (PID=5330) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:37:21,342] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:37:21,345] {logging_mixin.py:109} INFO - [2022-02-03 23:37:21,345] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:37:24,905] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:37:24,949] {logging_mixin.py:109} INFO - [2022-02-03 23:37:24,948] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:37:25,024] {logging_mixin.py:109} INFO - [2022-02-03 23:37:25,023] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:37:25,050] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.720 seconds
+[2022-02-03 23:37:55,151] {processor.py:163} INFO - Started process (PID=5377) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:37:55,155] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:37:55,157] {logging_mixin.py:109} INFO - [2022-02-03 23:37:55,157] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:37:58,585] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:37:58,632] {logging_mixin.py:109} INFO - [2022-02-03 23:37:58,630] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:37:58,707] {logging_mixin.py:109} INFO - [2022-02-03 23:37:58,706] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:37:58,737] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.577 seconds
+[2022-02-03 23:38:28,937] {processor.py:163} INFO - Started process (PID=5442) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:38:28,942] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:38:28,945] {logging_mixin.py:109} INFO - [2022-02-03 23:38:28,944] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:38:31,787] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:38:31,826] {logging_mixin.py:109} INFO - [2022-02-03 23:38:31,825] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:38:31,887] {logging_mixin.py:109} INFO - [2022-02-03 23:38:31,886] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:38:31,910] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 2.983 seconds
+[2022-02-03 23:39:02,472] {processor.py:163} INFO - Started process (PID=5506) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:39:02,476] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:39:02,480] {logging_mixin.py:109} INFO - [2022-02-03 23:39:02,480] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:39:06,322] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:39:06,367] {logging_mixin.py:109} INFO - [2022-02-03 23:39:06,366] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:39:06,452] {logging_mixin.py:109} INFO - [2022-02-03 23:39:06,451] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:39:06,479] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.015 seconds
+[2022-02-03 23:39:36,941] {processor.py:163} INFO - Started process (PID=5572) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:39:36,946] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:39:36,950] {logging_mixin.py:109} INFO - [2022-02-03 23:39:36,949] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:39:40,683] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:39:40,734] {logging_mixin.py:109} INFO - [2022-02-03 23:39:40,733] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:39:40,814] {logging_mixin.py:109} INFO - [2022-02-03 23:39:40,814] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:39:40,845] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.910 seconds
+[2022-02-03 23:40:11,533] {processor.py:163} INFO - Started process (PID=5619) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:40:11,537] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:40:11,540] {logging_mixin.py:109} INFO - [2022-02-03 23:40:11,540] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:40:14,276] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:40:14,312] {logging_mixin.py:109} INFO - [2022-02-03 23:40:14,311] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:40:14,368] {logging_mixin.py:109} INFO - [2022-02-03 23:40:14,368] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:40:14,389] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 2.863 seconds
+[2022-02-03 23:40:45,056] {processor.py:163} INFO - Started process (PID=5683) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:40:45,062] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:40:45,066] {logging_mixin.py:109} INFO - [2022-02-03 23:40:45,065] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:40:48,760] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:40:48,801] {logging_mixin.py:109} INFO - [2022-02-03 23:40:48,800] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:40:48,865] {logging_mixin.py:109} INFO - [2022-02-03 23:40:48,865] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:40:48,889] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.843 seconds
+[2022-02-03 23:41:19,477] {processor.py:163} INFO - Started process (PID=5746) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:41:19,483] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:41:19,486] {logging_mixin.py:109} INFO - [2022-02-03 23:41:19,486] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:41:23,228] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:41:23,281] {logging_mixin.py:109} INFO - [2022-02-03 23:41:23,280] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:41:23,379] {logging_mixin.py:109} INFO - [2022-02-03 23:41:23,378] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:41:23,415] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.946 seconds
+[2022-02-03 23:41:54,173] {processor.py:163} INFO - Started process (PID=5799) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:41:54,179] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:41:54,182] {logging_mixin.py:109} INFO - [2022-02-03 23:41:54,182] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:41:57,527] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:41:57,571] {logging_mixin.py:109} INFO - [2022-02-03 23:41:57,570] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:41:57,664] {logging_mixin.py:109} INFO - [2022-02-03 23:41:57,664] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:41:57,693] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.526 seconds
+[2022-02-03 23:42:28,188] {processor.py:163} INFO - Started process (PID=5865) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:42:28,193] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:42:28,197] {logging_mixin.py:109} INFO - [2022-02-03 23:42:28,196] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:42:31,193] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:42:31,234] {logging_mixin.py:109} INFO - [2022-02-03 23:42:31,233] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:42:31,295] {logging_mixin.py:109} INFO - [2022-02-03 23:42:31,295] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:42:31,319] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 3.138 seconds
+[2022-02-03 23:43:01,814] {processor.py:163} INFO - Started process (PID=5930) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:43:01,819] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:43:01,823] {logging_mixin.py:109} INFO - [2022-02-03 23:43:01,822] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:43:05,716] {processor.py:654} INFO - DAG(s) dict_keys(['download_ingest_2_gcs_dag']) retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:43:05,765] {logging_mixin.py:109} INFO - [2022-02-03 23:43:05,764] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-03 23:43:05,846] {logging_mixin.py:109} INFO - [2022-02-03 23:43:05,846] {dag.py:2935} INFO - Setting next_dagrun for download_ingest_2_gcs_dag to 2019-01-02 06:00:00+00:00
+[2022-02-03 23:43:05,908] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 4.103 seconds
+[2022-02-03 23:59:43,598] {processor.py:163} INFO - Started process (PID=5978) to work on /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-03 23:59:43,610] {processor.py:642} INFO - Processing file /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py for tasks to queue
+[2022-02-03 23:59:43,626] {logging_mixin.py:109} INFO - [2022-02-03 23:59:43,625] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-04 00:15:49,133] {logging_mixin.py:109} INFO - [2022-02-04 00:15:49,119] {timeout.py:36} ERROR - Process timed out, PID: 5978
+[2022-02-04 00:15:49,439] {logging_mixin.py:109} INFO - [2022-02-04 00:15:49,146] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py", line 12, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 38, in <module>
+    from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook, BigQueryJob
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 26, in <module>
+    from google.cloud.bigquery_storage_v1 import reader
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/reader.py", line 28, in <module>
+    import pandas
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 179, in <module>
+    import pandas.testing
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/testing.py", line 6, in <module>
+    from pandas._testing import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/_testing/__init__.py", line 74, in <module>
+    from pandas._testing.asserters import (  # noqa:F401
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/_testing/asserters.py", line 25, in <module>
+    from pandas.core.dtypes.missing import array_equivalent
+  File "<frozen importlib._bootstrap>", line 1009, in _handle_fromlist
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.2.3/best-practices.html#reducing-dag-complexity, PID: 5978
+[2022-02-04 00:15:49,589] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-04 00:15:49,595] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py
+[2022-02-04 00:15:49,728] {processor.py:171} INFO - Processing /opt/airflow/dags/yellowtaxi_download_ingest_2_gsc.py took 30.688 seconds

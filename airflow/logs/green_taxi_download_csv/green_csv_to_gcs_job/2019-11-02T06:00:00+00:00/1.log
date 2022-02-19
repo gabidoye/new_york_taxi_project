@@ -1,0 +1,52 @@
+[2022-02-15 22:50:01,982] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_download_csv.green_csv_to_gcs_job scheduled__2019-11-02T06:00:00+00:00 [queued]>
+[2022-02-15 22:50:02,065] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_download_csv.green_csv_to_gcs_job scheduled__2019-11-02T06:00:00+00:00 [queued]>
+[2022-02-15 22:50:02,073] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 22:50:02,075] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-15 22:50:02,076] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 22:50:02,146] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): green_csv_to_gcs_job> on 2019-11-02 06:00:00+00:00
+[2022-02-15 22:50:02,171] {standard_task_runner.py:52} INFO - Started process 5606 to run task
+[2022-02-15 22:50:02,204] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_download_csv', 'green_csv_to_gcs_job', 'scheduled__2019-11-02T06:00:00+00:00', '--job-id', '775', '--raw', '--subdir', 'DAGS_FOLDER/download_upload_greentaxi_csv.py', '--cfg-path', '/tmp/tmp6sxj125h', '--error-file', '/tmp/tmponccvclc']
+[2022-02-15 22:50:02,221] {standard_task_runner.py:77} INFO - Job 775: Subtask green_csv_to_gcs_job
+[2022-02-15 22:50:02,551] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_download_csv.green_csv_to_gcs_job scheduled__2019-11-02T06:00:00+00:00 [running]> on host 29988b24dbed
+[2022-02-15 22:50:02,827] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-15 22:50:02,926] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_download_csv
+AIRFLOW_CTX_TASK_ID=green_csv_to_gcs_job
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-11-02T06:00:00+00:00
+[2022-02-15 22:50:18,955] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-15 22:50:19,002] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_download_csv, task_id=green_csv_to_gcs_job, execution_date=20191102T060000, start_date=20220215T225001, end_date=20220215T225019
+[2022-02-15 22:50:19,091] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-15 22:50:19,181] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-02-15 22:50:19,239] {dagrun.py:545} INFO - Marking run <DagRun green_taxi_download_csv @ 2019-11-02 06:00:00+00:00: scheduled__2019-11-02T06:00:00+00:00, externally triggered: False> successful
+[2022-02-15 22:50:19,243] {dagrun.py:605} INFO - DagRun Finished: dag_id=green_taxi_download_csv, execution_date=2019-11-02 06:00:00+00:00, run_id=scheduled__2019-11-02T06:00:00+00:00, run_start_date=2022-02-15 22:49:26.647879+00:00, run_end_date=2022-02-15 22:50:19.242947+00:00, run_duration=52.595068, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2019-11-02 06:00:00+00:00, data_interval_end=2019-12-02 06:00:00+00:00, dag_hash=5265b9af312221aa87aa686dc8beaa59
+[2022-02-15 22:54:09,995] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_download_csv.green_csv_to_gcs_job scheduled__2019-11-02T06:00:00+00:00 [queued]>
+[2022-02-15 22:54:10,095] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_download_csv.green_csv_to_gcs_job scheduled__2019-11-02T06:00:00+00:00 [queued]>
+[2022-02-15 22:54:10,100] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 22:54:10,103] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-15 22:54:10,109] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 22:54:10,222] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): green_csv_to_gcs_job> on 2019-11-02 06:00:00+00:00
+[2022-02-15 22:54:10,239] {standard_task_runner.py:52} INFO - Started process 6024 to run task
+[2022-02-15 22:54:10,268] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_download_csv', 'green_csv_to_gcs_job', 'scheduled__2019-11-02T06:00:00+00:00', '--job-id', '798', '--raw', '--subdir', 'DAGS_FOLDER/download_upload_greentaxi_csv.py', '--cfg-path', '/tmp/tmp42n84vtx', '--error-file', '/tmp/tmpf80ro9z9']
+[2022-02-15 22:54:10,280] {standard_task_runner.py:77} INFO - Job 798: Subtask green_csv_to_gcs_job
+[2022-02-15 22:54:10,687] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_download_csv.green_csv_to_gcs_job scheduled__2019-11-02T06:00:00+00:00 [running]> on host 29988b24dbed
+[2022-02-15 22:54:11,019] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-15 22:54:11,152] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_download_csv
+AIRFLOW_CTX_TASK_ID=green_csv_to_gcs_job
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-11-02T06:00:00+00:00
+[2022-02-15 22:54:24,585] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-15 22:54:24,638] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_download_csv, task_id=green_csv_to_gcs_job, execution_date=20191102T060000, start_date=20220215T225410, end_date=20220215T225424
+[2022-02-15 22:54:24,726] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-15 22:54:24,812] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

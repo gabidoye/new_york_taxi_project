@@ -1,0 +1,30 @@
+[2022-01-31 04:48:53,839] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.wget manual__2022-01-31T04:48:51.877149+00:00 [queued]>
+[2022-01-31 04:48:53,887] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: testing_dag.wget manual__2022-01-31T04:48:51.877149+00:00 [queued]>
+[2022-01-31 04:48:53,889] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 04:48:53,890] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-01-31 04:48:53,892] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 04:48:53,933] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): wget> on 2022-01-31 04:48:51.877149+00:00
+[2022-01-31 04:48:53,941] {standard_task_runner.py:52} INFO - Started process 6821 to run task
+[2022-01-31 04:48:53,948] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'testing_dag', 'wget', 'manual__2022-01-31T04:48:51.877149+00:00', '--job-id', '104', '--raw', '--subdir', 'DAGS_FOLDER/testing_dag.py', '--cfg-path', '/tmp/tmpl5c5nbjv', '--error-file', '/tmp/tmptps9ooz9']
+[2022-01-31 04:48:53,951] {standard_task_runner.py:77} INFO - Job 104: Subtask wget
+[2022-01-31 04:48:54,128] {logging_mixin.py:109} INFO - Running <TaskInstance: testing_dag.wget manual__2022-01-31T04:48:51.877149+00:00 [running]> on host 5beebf73c64a
+[2022-01-31 04:48:54,286] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-31 04:48:54,337] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=testing_dag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-31T04:48:51.877149+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-31T04:48:51.877149+00:00
+[2022-01-31 04:48:54,343] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-01-31 04:48:54,347] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo "2022-48"']
+[2022-01-31 04:48:54,366] {subprocess.py:85} INFO - Output:
+[2022-01-31 04:48:54,414] {subprocess.py:89} INFO - 2022-48
+[2022-01-31 04:48:54,417] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-01-31 04:48:54,498] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=testing_dag, task_id=wget, execution_date=20220131T044851, start_date=20220131T044853, end_date=20220131T044854
+[2022-01-31 04:48:54,607] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-31 04:48:54,707] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

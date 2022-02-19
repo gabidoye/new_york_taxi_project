@@ -1,0 +1,50 @@
+[2022-02-02 21:45:44,592] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_ingest_2_gcs_dag.format_csv_2_parquet_task scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-02-02 21:45:44,671] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_ingest_2_gcs_dag.format_csv_2_parquet_task scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-02-02 21:45:44,675] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:45:44,676] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-02 21:45:44,683] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:45:44,801] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_csv_2_parquet_task> on 2019-03-02 06:00:00+00:00
+[2022-02-02 21:45:44,829] {standard_task_runner.py:52} INFO - Started process 1370 to run task
+[2022-02-02 21:45:44,847] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_ingest_2_gcs_dag', 'format_csv_2_parquet_task', 'scheduled__2019-03-02T06:00:00+00:00', '--job-id', '436', '--raw', '--subdir', 'DAGS_FOLDER/fhv_download_ingest_gcs.py', '--cfg-path', '/tmp/tmpcfsw9c1p', '--error-file', '/tmp/tmpl9qmfm4w']
+[2022-02-02 21:45:44,859] {standard_task_runner.py:77} INFO - Job 436: Subtask format_csv_2_parquet_task
+[2022-02-02 21:45:45,101] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_ingest_2_gcs_dag.format_csv_2_parquet_task scheduled__2019-03-02T06:00:00+00:00 [running]> on host ee5c3eebd1b1
+[2022-02-02 21:45:45,266] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-02 21:45:45,338] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_ingest_2_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_csv_2_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-03-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-03-02T06:00:00+00:00
+[2022-02-02 21:45:49,678] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-02 21:45:49,740] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_ingest_2_gcs_dag, task_id=format_csv_2_parquet_task, execution_date=20190302T060000, start_date=20220202T214544, end_date=20220202T214549
+[2022-02-02 21:45:50,234] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-02 21:45:50,768] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-02-02 21:52:16,773] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_ingest_2_gcs_dag.format_csv_2_parquet_task scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-02-02 21:52:16,909] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_ingest_2_gcs_dag.format_csv_2_parquet_task scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-02-02 21:52:16,912] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:52:16,916] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-02 21:52:16,922] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:52:17,009] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_csv_2_parquet_task> on 2019-03-02 06:00:00+00:00
+[2022-02-02 21:52:17,025] {standard_task_runner.py:52} INFO - Started process 1825 to run task
+[2022-02-02 21:52:17,051] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_ingest_2_gcs_dag', 'format_csv_2_parquet_task', 'scheduled__2019-03-02T06:00:00+00:00', '--job-id', '447', '--raw', '--subdir', 'DAGS_FOLDER/fhv_download_ingest_gcs.py', '--cfg-path', '/tmp/tmpzvifun_4', '--error-file', '/tmp/tmp5uppz5ml']
+[2022-02-02 21:52:17,057] {standard_task_runner.py:77} INFO - Job 447: Subtask format_csv_2_parquet_task
+[2022-02-02 21:52:17,320] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_ingest_2_gcs_dag.format_csv_2_parquet_task scheduled__2019-03-02T06:00:00+00:00 [running]> on host ee5c3eebd1b1
+[2022-02-02 21:52:17,612] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-02 21:52:17,723] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_ingest_2_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_csv_2_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-03-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-03-02T06:00:00+00:00
+[2022-02-02 21:52:21,045] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-02 21:52:21,215] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_ingest_2_gcs_dag, task_id=format_csv_2_parquet_task, execution_date=20190302T060000, start_date=20220202T215216, end_date=20220202T215221
+[2022-02-02 21:52:21,463] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-02 21:52:21,817] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

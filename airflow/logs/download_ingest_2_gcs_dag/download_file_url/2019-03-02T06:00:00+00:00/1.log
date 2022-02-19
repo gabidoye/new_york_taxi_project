@@ -1,0 +1,58 @@
+[2022-02-02 04:02:36,974] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: download_ingest_2_gcs_dag.download_file_url scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-02-02 04:02:37,048] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: download_ingest_2_gcs_dag.download_file_url scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-02-02 04:02:37,050] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 04:02:37,052] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-02 04:02:37,055] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 04:02:37,110] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_file_url> on 2019-03-02 06:00:00+00:00
+[2022-02-02 04:02:37,120] {standard_task_runner.py:52} INFO - Started process 1539 to run task
+[2022-02-02 04:02:37,138] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'download_ingest_2_gcs_dag', 'download_file_url', 'scheduled__2019-03-02T06:00:00+00:00', '--job-id', '248', '--raw', '--subdir', 'DAGS_FOLDER/load_gsc_assgnment.py', '--cfg-path', '/tmp/tmpxcf4vji8', '--error-file', '/tmp/tmpjam5mtxz']
+[2022-02-02 04:02:37,142] {standard_task_runner.py:77} INFO - Job 248: Subtask download_file_url
+[2022-02-02 04:02:37,357] {logging_mixin.py:109} INFO - Running <TaskInstance: download_ingest_2_gcs_dag.download_file_url scheduled__2019-03-02T06:00:00+00:00 [running]> on host 3082aca3aebc
+[2022-02-02 04:02:37,563] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-02 04:02:37,676] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=download_ingest_2_gcs_dag
+AIRFLOW_CTX_TASK_ID=download_file_url
+AIRFLOW_CTX_EXECUTION_DATE=2019-03-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-03-02T06:00:00+00:00
+[2022-02-02 04:02:37,683] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-02 04:02:37,691] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2019-03.csv > /opt/***/output_2019-03.csv']
+[2022-02-02 04:02:37,755] {subprocess.py:85} INFO - Output:
+[2022-02-02 04:03:11,325] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-02 04:03:11,428] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=download_ingest_2_gcs_dag, task_id=download_file_url, execution_date=20190302T060000, start_date=20220202T040236, end_date=20220202T040311
+[2022-02-02 04:03:11,503] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-02 04:03:11,621] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-02 06:22:07,023] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: download_ingest_2_gcs_dag.download_file_url scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-02-02 06:22:07,171] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: download_ingest_2_gcs_dag.download_file_url scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-02-02 06:22:07,173] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 06:22:07,177] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-02 06:22:07,179] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 06:22:07,316] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): download_file_url> on 2019-03-02 06:00:00+00:00
+[2022-02-02 06:22:07,341] {standard_task_runner.py:52} INFO - Started process 9293 to run task
+[2022-02-02 06:22:07,361] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'download_ingest_2_gcs_dag', 'download_file_url', 'scheduled__2019-03-02T06:00:00+00:00', '--job-id', '293', '--raw', '--subdir', 'DAGS_FOLDER/download_ingest_2_gsc_assgnment.py', '--cfg-path', '/tmp/tmppkrbytc1', '--error-file', '/tmp/tmp6pndyzx1']
+[2022-02-02 06:22:07,384] {standard_task_runner.py:77} INFO - Job 293: Subtask download_file_url
+[2022-02-02 06:22:07,851] {logging_mixin.py:109} INFO - Running <TaskInstance: download_ingest_2_gcs_dag.download_file_url scheduled__2019-03-02T06:00:00+00:00 [running]> on host 3082aca3aebc
+[2022-02-02 06:22:08,157] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-02 06:22:08,249] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=download_ingest_2_gcs_dag
+AIRFLOW_CTX_TASK_ID=download_file_url
+AIRFLOW_CTX_EXECUTION_DATE=2019-03-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-03-02T06:00:00+00:00
+[2022-02-02 06:22:08,263] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-02 06:22:08,273] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2019-03.csv > /opt/***/output_2019-03.csv']
+[2022-02-02 06:22:08,327] {subprocess.py:85} INFO - Output:
+[2022-02-02 06:25:41,855] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-02 06:25:47,165] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=download_ingest_2_gcs_dag, task_id=download_file_url, execution_date=20190302T060000, start_date=20220202T062207, end_date=20220202T062547
+[2022-02-02 06:25:48,947] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-02 06:25:51,293] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

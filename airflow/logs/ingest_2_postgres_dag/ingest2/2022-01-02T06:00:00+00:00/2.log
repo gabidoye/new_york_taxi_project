@@ -1,0 +1,104 @@
+[2022-02-04 05:03:56,259] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: ingest_2_postgres_dag.ingest2 scheduled__2022-01-02T06:00:00+00:00 [queued]>
+[2022-02-04 05:03:56,311] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: ingest_2_postgres_dag.ingest2 scheduled__2022-01-02T06:00:00+00:00 [queued]>
+[2022-02-04 05:03:56,313] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-04 05:03:56,314] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2022-02-04 05:03:56,316] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-04 05:03:56,382] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): ingest2> on 2022-01-02 06:00:00+00:00
+[2022-02-04 05:03:56,393] {standard_task_runner.py:52} INFO - Started process 4229 to run task
+[2022-02-04 05:03:56,417] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ingest_2_postgres_dag', 'ingest2', 'scheduled__2022-01-02T06:00:00+00:00', '--job-id', '532', '--raw', '--subdir', 'DAGS_FOLDER/ingest_data_2_postgres.py', '--cfg-path', '/tmp/tmpyttmtdwi', '--error-file', '/tmp/tmpndpxqzx6']
+[2022-02-04 05:03:56,421] {standard_task_runner.py:77} INFO - Job 532: Subtask ingest2
+[2022-02-04 05:03:56,600] {logging_mixin.py:109} INFO - Running <TaskInstance: ingest_2_postgres_dag.ingest2 scheduled__2022-01-02T06:00:00+00:00 [running]> on host 5ef54cb9f374
+[2022-02-04 05:03:56,787] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-04 05:03:56,911] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ingest_2_postgres_dag
+AIRFLOW_CTX_TASK_ID=ingest2
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-02T06:00:00+00:00
+[2022-02-04 05:03:56,916] {logging_mixin.py:109} INFO - yellow_taxi_2022_01 /opt/***/output_2022-01.csv
+[2022-02-04 05:03:56,974] {logging_mixin.py:109} INFO - connection established successfully, inserting date...
+[2022-02-04 05:06:56,153] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 89.731 second
+[2022-02-04 05:08:22,418] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 86.251 second
+[2022-02-04 05:09:46,966] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 84.542 second
+[2022-02-04 05:11:14,433] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 87.457 second
+[2022-02-04 05:12:44,912] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 90.469 second
+[2022-02-04 05:14:09,762] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 84.836 second
+[2022-02-04 05:15:38,002] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 88.233 second
+[2022-02-04 05:17:06,709] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 88.695 second
+[2022-02-04 05:18:40,767] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 94.042 second
+[2022-02-04 05:20:08,262] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 87.486 second
+[2022-02-04 05:21:38,032] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 89.760 second
+[2022-02-04 05:21:38,972] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/operators/python.py:174: DtypeWarning: Columns (6) have mixed types.Specify dtype option on import or set low_memory=False.
+  return_value = self.execute_callable()
+
+[2022-02-04 05:23:15,032] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 96.982 second
+[2022-02-04 05:24:09,610] {logging_mixin.py:109} INFO - inserted fisrt chunk..., took 54.566 second
+[2022-02-04 05:24:09,624] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ingest_script.py", line 34, in ingest_callable
+    df2 =next(df_iterator)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1024, in __next__
+    return self.get_chunk()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1074, in get_chunk
+    return self.read(nrows=size)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1047, in read
+    index, columns, col_dict = self._engine.read(nrows)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 224, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 826, in pandas._libs.parsers.TextReader.read_low_memory
+StopIteration
+[2022-02-04 05:24:09,708] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=ingest_2_postgres_dag, task_id=ingest2, execution_date=20220102T060000, start_date=20220204T050356, end_date=20220204T052409
+[2022-02-04 05:24:09,779] {standard_task_runner.py:92} ERROR - Failed to execute job 532 for task ingest2
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ingest_script.py", line 34, in ingest_callable
+    df2 =next(df_iterator)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1024, in __next__
+    return self.get_chunk()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1074, in get_chunk
+    return self.read(nrows=size)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1047, in read
+    index, columns, col_dict = self._engine.read(nrows)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 224, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 826, in pandas._libs.parsers.TextReader.read_low_memory
+StopIteration
+[2022-02-04 05:24:10,225] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-02-04 05:24:10,354] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

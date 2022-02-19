@@ -1,0 +1,24 @@
+[2022-02-02 14:40:30,286] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: download_ingest_2_gcs_dag.format_2_parquet_task scheduled__2019-10-02T06:00:00+00:00 [queued]>
+[2022-02-02 14:40:30,409] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: download_ingest_2_gcs_dag.format_2_parquet_task scheduled__2019-10-02T06:00:00+00:00 [queued]>
+[2022-02-02 14:40:30,412] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 14:40:30,413] {taskinstance.py:1239} INFO - Starting attempt 3 of 3
+[2022-02-02 14:40:30,415] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 14:40:30,533] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): format_2_parquet_task> on 2019-10-02 06:00:00+00:00
+[2022-02-02 14:40:30,560] {standard_task_runner.py:52} INFO - Started process 31049 to run task
+[2022-02-02 14:40:30,594] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'download_ingest_2_gcs_dag', 'format_2_parquet_task', 'scheduled__2019-10-02T06:00:00+00:00', '--job-id', '347', '--raw', '--subdir', 'DAGS_FOLDER/download_ingest_2_gsc_assgnment.py', '--cfg-path', '/tmp/tmpg5nimje0', '--error-file', '/tmp/tmplyp4f1fb']
+[2022-02-02 14:40:30,602] {standard_task_runner.py:77} INFO - Job 347: Subtask format_2_parquet_task
+[2022-02-02 14:40:30,942] {logging_mixin.py:109} INFO - Running <TaskInstance: download_ingest_2_gcs_dag.format_2_parquet_task scheduled__2019-10-02T06:00:00+00:00 [running]> on host 3082aca3aebc
+[2022-02-02 14:40:31,833] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-02 14:40:31,952] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=download_ingest_2_gcs_dag
+AIRFLOW_CTX_TASK_ID=format_2_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-10-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-10-02T06:00:00+00:00
+[2022-02-02 14:41:58,961] {local_task_job.py:154} INFO - Task exited with return code Negsignal.SIGKILL
+[2022-02-02 14:41:59,494] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=download_ingest_2_gcs_dag, task_id=format_2_parquet_task, execution_date=20191002T060000, start_date=20220202T144030, end_date=20220202T144159
+[2022-02-02 14:42:00,699] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
