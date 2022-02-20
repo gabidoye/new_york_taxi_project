@@ -1,0 +1,57 @@
+
+     
+      docker run -it \
+      --name pgdatabase
+      -e POSTGRES_PASSWORD="root" \
+      -e POSTGRES_USER="root" \
+      -e POSTGRES_DB="ny_taxi" \
+      -v $(pwd)/db_data:/var/lib/postgresql/data \
+      -p 5432:5432 \
+      -- network pg_network\
+      -d 
+      postgres:13
+
+#pgcli -h localhost -p 5432  -U root -d ny_taxi--causing problem for jupyter
+
+docker run -it \
+--name pgadmin \
+-e "PGADMIN_DEFAULT_EMAIL=admin@example.com" \
+-e "PGADMIN_DEFAULT_PASSWORD=admin" \
+-p 8080:80 \
+-d dpage/pgadmin4 \
+-- network pg_network
+
+## Network##
+docker network create pg_network
+
+docker run -it \
+      --name postgresql\
+      -e POSTGRES_USER="root" \
+      -e POSTGRES_PASSWORD="root" \
+      -e POSTGRES_DB="ny_taxi" \
+      -v $(pwd)/db_data:/var/lib/postgresql/data \
+      -p 5432:5432 \
+      -d \
+      --network pg_network \
+      postgres:13
+
+#Add the containers to the network created
+$docker network ls
+$docker network connect pgnetwork pgadmin
+$docker network connect pgnetwork postgres
+docker network inspect pgnetwork ##verify it
+
+ ## Uploading the data##
+ https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+ https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf  #data dictionary  
+
+ # Run script
+
+docker run -it --network pg_network taxi_ingest:v001 \
+--user=root --password=root --host=week1_postgresql_1 --port=5432 --database=ny_taxi --table_name=yellow_taxi_trips_doc --url="https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-01.csv" 
+
+#ingest data into docker compose
+#first build the docker file and run it by attaching the docker build to same network as docker compose
+docker build -t taxi_ingest:v002 .
+docker network inspect /ls
+docker run -it --network week1_default taxi_ingest:v002 --user=root --password=root --host=week1_pgdatabase_1 --port=5432 --database=ny_taxi --table_name=yellow_taxi_trips --url="https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-01.csv" 
